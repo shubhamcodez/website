@@ -89,7 +89,7 @@ nav a {
 
 nav a:focus,
 nav a:hover {
-  color: #f09228;
+  color: #6022c4;
 }
 
 h1 {
@@ -117,7 +117,7 @@ img {
   border-radius: 50%;
   float: right;
   margin-left: 20px;
-  width: 200px;
+  width: 50px;
 }
 
 .one {
