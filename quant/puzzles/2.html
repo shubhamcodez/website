@@ -18,27 +18,20 @@
     <h2>You have a pile of 100 coins. 1 of the coins is an unfair coin and has heads on both sides. The remaining 99 coins are fair coins. You randomly select a coin from the pile and flip it 10 times. The coin lands heads all 
             10 times. Calculate the probability that the coin you selected is the unfair coin.</h2>
     <h3>Answer:</h3>
-        This is a Bayes' theorem question. The formula for Bayes' theorem is: <br>
-        P(A|B) = P(B|A) x P(A) / P(B) <br><br>
-        
-        In this case: <br>
-        A = Unfair coin <br>
-        B = Getting heads 10 times in a row <br>
-        <br>
-        Hence, 
-        P(Unfair coin | 10 heads in a row) = P(10 heads in a row | Unfair coin) x P(Unfair coin) / P(10 heads in a row) <br>
-        <br>
-        We have the following values,  <br>
-        P(10 heads in a row | Unfair coin) = 1 (Because both sides of the unfair coin are heads) <br>
-        P(Unfair coin) = 1/100 <br>
-        P(10 heads in a row) = 1/100*1 + 99/100*1/2^10 <br>
-        <br>
-        P(unfair coin | 10 heads in a row) = P(10 heads in a row | Unfair coin) x P(Unfair coin) + P(10 heads in a row | Fair coin) x P(Fair coin) <br>
-        = 1*1/100 / (1 x 1/100 + 1/2^10 x 99/100) <br>
-        ≈ 0.9118 (or approximately 91.18%) <br>
-        <br>
-        Therefore, the probability of the coin being unfair given that it landed heads 10 times in a row is approximately 91.18%. <br>
-     
+    This is a Bayes' theorem question. The formula for Bayes' theorem is:
+    $$P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$$
+    In this case:
+    A = Unfair coin
+    B = Getting heads 10 times in a row
+    Hence,
+    $$P(\text{Unfair coin} | 10 \text{ heads in a row}) = \frac{P(10 \text{ heads in a row} | \text{Unfair coin}) \times P(\text{Unfair coin})}{P(10 \text{ heads in a row})}$$
+    We have the following values:
+    $$P(10 \text{ heads in a row} | \text{Unfair coin}) = 1 \quad (\text{Because both sides of the unfair coin are heads})$$
+    $$P(\text{Unfair coin}) = \frac{1}{100}$$
+    $$P(10 \text{ heads in a row}) = \frac{1}{100} \times 1 + \frac{99}{100} \times \frac{1}{2^{10}}$$
+    $$P(\text{unfair coin} | 10 \text{ heads in a row}) = \frac{P(10 \text{ heads in a row} | \text{Unfair coin}) \times P(\text{Unfair coin})}{P(10 \text{ heads in a row} | \text{Unfair coin}) \times P(\text{Unfair coin}) + P(10 \text{ heads in a row} | \text{Fair coin}) \times P(\text{Fair coin})}$$
+    $$= \frac{1 \times \frac{1}{100}}{1 \times \frac{1}{100} + \frac{1}{2^{10}} \times \frac{99}{100}} \approx 0.9118 \quad (\text{or approximately } 91.18\%)$$
+    Therefore, the probability of the coin being unfair given that it landed heads 10 times in a row is approximately 91.18%. 
     </section>
     
     <footer>
