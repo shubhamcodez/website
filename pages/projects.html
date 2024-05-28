@@ -13,6 +13,9 @@
     }
     .search-bar {
       margin-bottom: 20px;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
     }
   </style>
 </head>
@@ -111,11 +114,20 @@
       const projects = document.getElementById('projects').getElementsByClassName('project');
       
       for (let i = 0; i < projects.length; i++) {
-        let keywords = projects[i].getAttribute('data-keywords').toLowerCase();
-        if (keywords.includes(input)) {
-          projects[i].style.display = "";
+        const project = projects[i];
+        const keywords = project.getAttribute('data-keywords').toLowerCase();
+        const title = project.getElementsByTagName('h2')[0].textContent.toLowerCase();
+        const content = project.getElementsByTagName('p');
+        let contentText = '';
+        
+        for (let j = 0; j < content.length; j++) {
+          contentText += content[j].textContent.toLowerCase() + ' ';
+        }
+        
+        if (keywords.includes(input) || title.includes(input) || contentText.includes(input)) {
+          project.style.display = "";
         } else {
-          projects[i].style.display = "none";
+          project.style.display = "none";
         }
       }
     }
