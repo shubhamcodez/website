@@ -3,101 +3,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shubham Singh</title>
+  <title>Shubham Singh | Casual Blog</title>
   <link rel="stylesheet" href="../stylesheet.css">
   <style>
-    ol {
-      padding-left: 20px;
+    body {
+      background-color: #f0f4f5;
+      color: #333;
+      font-family: Arial, sans-serif;
     }
-    .movie-rating {
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
       display: flex;
-      align-items: center;
+      justify-content: space-around;
+      background-color: #00897b;
+      padding: 15px;
     }
-    .star {
-      color: gold;
-      margin-right: 5px;
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      margin: 20px;
+    }
+    h2 {
+      color: #004d40;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    ul li a {
+      text-decoration: none;
+      color: #004d40;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+    ul li a:hover {
+      color: #ffd700;
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .social-links a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.5em;
+    }
+    .social-links a:hover {
+      color: #ffd700;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Shubham Singh</h1>
+      <h1>Shubham Singh's Blog</h1>
     </header>
     <nav>
       <a href="../index.html">Home</a>
       <a href="#about">About</a>
-      <a href="#movies">Movies</a>
+      <a href="#blogs">Blog Posts</a>
     </nav>
     <section id="about">
-       <p>A page for casual stuff about me, just to prove that I am human too. I might throw in some casual knowledge too.</p>
+       <p>This is my personal blog where I share insights on various topics. Feel free to explore!</p>
     </section>
-    <section id="movies">
-        <h2>Movies</h2>
-        <h3>Finance Movies</h3>
-        <p>Some finance movies I have watched, and my personal ratings</p>
-        <ol>
-            <li>
-                <div class="movie-rating">
-                    <span class="star">⭐⭐⭐⭐⭐</span>
-                    <span>The Big Short (9/10)</span>
-                </div>
-                <p>One of the best movies I have ever watched. Whenever I need to feel inspired, I watch it. Based on the 2008 financial crash, from the perspective of people who predicted and bet on it.</p>
-            </li>
-            <li>
-                <div class="movie-rating">
-                    <span class="star">⭐⭐⭐⭐⭐</span>
-                    <span>Margin Call (8.7/10)</span>
-                </div>
-                <p>Love it, just love it. Risk management gang is my favorite. The movie is based on the 2008 crash too, from the perspective of people who failed to see it, banks who were selling mortgage swaps.</p>
-            </li>
-            <li>
-                <div class="movie-rating">
-                    <span class="star">⭐⭐⭐⭐⭐</span>
-                    <span>Too Big to Fail (8.7/10)</span>
-                </div>
-                <p>A different perspective on the 2008 financial crash, and as entertaining as the rest.</p>
-            </li>
-            <li>
-                <div class="movie-rating">
-                    <span class="star">⭐⭐⭐⭐</span>
-                    <span>Wall Street - Charlie Sheen (7.6/10)</span>
-                </div>
-                <p>I didn't learn much about finance, except insider trading is the way to win? Else the movie is good.</p>
-            </li>  
-            <li>
-                <div class="movie-rating">
-                    <span class="star">⭐⭐⭐⭐</span>
-                    <span>Wall Street - Shia Lebouf (6.9/10)</span>
-                </div>
-                <p>A messed up emotional roller coaster. It's good but a mess.</p>
-            </li>
-            <li>
-                <div class="movie-rating">
-                    <span class="star">⭐⭐⭐⭐</span>
-                    <span>Rogue Trader (7.8/10)</span>
-                </div>
-                <p>Based on real life about a guy who single-handedly destroyed Britain's oldest bank by trading without permission. Good lesson about psychology and emotion in finance.</p>
-            </li>
-        </ol>
+    <section id="blogs">
+      <h2>Recent Blog Posts</h2>
+      <ul id="blog-list">
+        <!-- Automatically rendered blog posts will appear here -->
+      </ul>
     </section>
     <footer>
-        <p>&copy; 2024 Shubham Singh. All rights reserved.</p>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank" class="social-link">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/yourgithubprofile" target="_blank" class="social-link">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.kaggle.com/yourkaggleprofile" target="_blank" class="social-link">
-            <i class="fab fa-kaggle"></i>
-          </a>
-          <a href="https://www.youtube.com/youryoutubechannel" target="_blank" class="social-link">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </div>
-      </footer>
+      <p>&copy; 2024 Shubham Singh. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/shubhamsinghnyu" target="_blank" class="social-link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/shubhamcodez" target="_blank" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.kaggle.com/shubhamcodez" target="_blank" class="social-link">
+          <i class="fab fa-kaggle"></i>
+        </a>
+        <a href="https://www.youtube.com/ShubhamSinghYoutube" target="_blank" class="social-link">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </footer>
   </div>
+
+  <script>
+    const blogsFolder = '../blogs';
+    const blogList = document.getElementById('blog-list');
+
+    // Function to automatically render blog posts from the blogs folder
+    const fetchBlogs = async () => {
+      const response = await fetch(blogsFolder);
+      const files = await response.text();
+
+      const parser = new DOMParser();
+      const htmlDoc = parser.parseFromString(files, 'text/html');
+      const links = htmlDoc.querySelectorAll('a');
+      
+      links.forEach(link => {
+        const listItem = document.createElement('li');
+        const anchor = document.createElement('a');
+        anchor.href = `${blogsFolder}/${link.getAttribute('href')}`;
+        anchor.textContent = link.textContent;
+        listItem.appendChild(anchor);
+        blogList.appendChild(listItem);
+      });
+    };
+
+    fetchBlogs();
+  </script>
 </body>
 </html>
