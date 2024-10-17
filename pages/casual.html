@@ -63,52 +63,68 @@
 
 <!-- Fetch and Render Blogs Script -->
 <script>
-    const blogsFolder = 'https://shubhamcodez.github.io/website/blogs/';
-    const blogList = document.getElementById('blog-list');
-    const blogContent = document.getElementById('blog-content');
+  const blogsFolder = 'https://shubhamcodez.github.io/website/blogs/';
+  const blogList = document.getElementById('blog-list');
+  const blogContent = document.getElementById('blog-content');
 
-    // Function to automatically render blog posts from the blogs folder
-    const fetchBlogs = async () => {
-        const response = await fetch(blogsFolder);
-        const files = await response.text();
+  // Function to automatically render blog posts from the blogs folder
+  const fetchBlogs = async () => {
+      try {
+          const response = await fetch(blogsFolder);
+          if (!response.ok) throw new Error('Network response was not ok');
+          const files = await response.text();
 
-        const parser = new DOMParser();
-        const htmlDoc = parser.parseFromString(files, 'text/html');
-        const links = Array.from(htmlDoc.querySelectorAll('a'));
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(files, 'text/html');
+          const links = Array.from(htmlDoc.querySelectorAll('a'));
 
-        // Filter for blog posts and sort them
-        const blogPosts = links
-            .filter(link => link.getAttribute('href').endsWith('.html')) // Ensure they are HTML files
-            .sort((a, b) => {
-                // Extract the serial number from the filenames
-                const serialA = parseInt(a.getAttribute('href').split('/')[2].split('-')[0]);
-                const serialB = parseInt(b.getAttribute('href').split('/')[2].split('-')[0]);
-                return serialA - serialB; // Sort in ascending order
-            });
+          // Filter for blog posts and sort them
+          const blogPosts = links
+              .filter(link => link.getAttribute('href').endsWith('.html')) // Ensure they are HTML files
+              .sort((a, b) => {
+                  const serialA = parseInt(a.getAttribute('href').split('/').pop().split('-')[0]);
+                  const serialB = parseInt(b.getAttribute('href').split('/').pop().split('-')[0]);
+                  return serialA - serialB; // Sort in ascending order
+              });
 
-        // Append the sorted blog posts to the list
-        blogPosts.forEach(link => {
-            const listItem = document.createElement('li');
-            const anchor = document.createElement('a');
-            anchor.href = `${blogsFolder}/${link.getAttribute('href')}`;
-            anchor.textContent = link.textContent || link.getAttribute('href').split('/').pop();
+          if (blogPosts.length === 0) {
+              blogList.innerHTML = '<li>No blog posts available.</li>';
+              return;
+          }
 
-            // Add click event to fetch and display the blog content
-            anchor.addEventListener('click', async (e) => {
-                e.preventDefault(); // Prevent the default link behavior
-                const blogResponse = await fetch(anchor.href);
-                const blogHtml = await blogResponse.text();
+          // Append the sorted blog posts to the list
+          blogPosts.forEach(link => {
+              const listItem = document.createElement('li');
+              const anchor = document.createElement('a');
+              anchor.href = `${blogsFolder}${link.getAttribute('href')}`;
+              anchor.textContent = link.textContent || link.getAttribute('href').split('/').pop();
 
-                // Set the blog content in the blog-content div
-                blogContent.innerHTML = blogHtml; // Use innerHTML to render the HTML content
-            });
+              // Add click event to fetch and display the blog content
+              anchor.addEventListener('click', async (e) => {
+                  e.preventDefault(); // Prevent the default link behavior
+                  try {
+                      const blogResponse = await fetch(anchor.href);
+                      if (!blogResponse.ok) throw new Error('Failed to fetch blog content');
+                      const blogHtml = await blogResponse.text();
 
-            listItem.appendChild(anchor);
-            blogList.appendChild(listItem);
-        });
-    };
+                      // Set the blog content in the blog-content div
+                      blogContent.innerHTML = blogHtml; // Use innerHTML to render the HTML content
+                  } catch (error) {
+                      console.error('Error fetching blog content:', error);
+                      blogContent.innerHTML = '<p>Failed to load the blog content.</p>';
+                  }
+              });
 
-    fetchBlogs();
+              listItem.appendChild(anchor);
+              blogList.appendChild(listItem);
+          });
+      } catch (error) {
+          console.error('Error fetching blogs:', error);
+          blogList.innerHTML = '<li>Error loading blog posts.</li>';
+      }
+  };
+
+  fetchBlogs();
 </script>
 </body>
 </html>
