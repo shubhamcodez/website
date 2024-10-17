@@ -3,29 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSV Data Viewer</title>
-    <link rel="stylesheet" href="website/stylesheet.css">
+    <title>Shubham Singh</title>
+    <link rel="stylesheet" href="../../stylesheet.css">
+    <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <h1>CSV Data Viewer</h1>
-    <div class="filter-container">
-        <label for="difficultyFilter">Difficulty:</label>
-        <select id="difficultyFilter">
-            <option value="">All</option>
-            <option value="Easy">Easy</option>
-            <option value="Medium">Medium</option>
-            <option value="Hard">Hard</option>
-        </select>
+    <div class="container">
+        <header class="text-center my-4">
+            <h1>Shubham Singh</h1>
+        </header>
 
-        <label for="companyFilter">Company:</label>
-        <select id="companyFilter">
-            <option value="">All</option>
-        </select>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="../../index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../pages/quant.html">Quant</a>
+                        </li>
+                        <!-- Add more navigation links here if needed -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <h2>CSV Data Viewer</h2>
+            <div class="filter-container mb-4">
+                <label for="difficultyFilter">Difficulty:</label>
+                <select id="difficultyFilter" class="form-control d-inline-block w-auto">
+                    <option value="">All</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+
+                <label for="companyFilter" class="ml-3">Company:</label>
+                <select id="companyFilter" class="form-control d-inline-block w-auto">
+                    <option value="">All</option>
+                </select>
+            </div>
+
+            <div class="seo-paragraph mb-4">
+                <p>
+                    If you’re aspiring to secure a Quantitative Developer or Software Engineering role at hedge funds and banks, it’s crucial to prepare thoroughly for the interview process. Familiarizing yourself with the most frequently asked interview questions can significantly improve your chances of success. Key topics often include quantitative analysis, data structures, algorithms, and statistical modeling. Candidates should be ready to tackle questions like: "Can you explain the difference between a mean and a median?", "How would you implement a binary search algorithm?", and "What is your experience with machine learning algorithms?" Additionally, interviewers frequently assess practical knowledge of programming languages such as Python, C++, and Java in the context of financial modeling and algorithmic trading. For a comprehensive list of interview questions and tips specifically tailored for Quantitative Developer and Software Engineering roles at leading financial institutions, visit <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>. By mastering these topics, you can stand out in the competitive finance job market and land your dream role.
+                </p>
+            </div>
+
+            <table id="dataTable" class="table table-striped">
+                <thead id="tableHead"></thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </main>
+
+        <footer class="text-center mt-4">
+            <p>&copy; 2024 Shubham Singh. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/shubhamsinghnyu" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/shubhamcodez" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.kaggle.com/shubhamcodez" target="_blank" class="social-link">
+                    <i class="fab fa-kaggle"></i>
+                </a>
+                <a href="https://www.youtube.com/ShubhamSinghYoutube" target="_blank" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </footer>
     </div>
-    <table id="dataTable">
-        <thead id="tableHead"></thead>
-        <tbody id="tableBody"></tbody>
-    </table>
+
+    <!-- Bootstrap JS for responsiveness -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script>
         let allRows = [];
@@ -75,7 +133,7 @@
 
         function updateCompanyFilter(rows) {
             const companyFilter = document.getElementById('companyFilter');
-            const companies = new Set(rows.slice(1).map(row => row[1])); // Assuming company name is in the second column
+            const companies = new Set(rows.slice(1).map(row => row[3])); // Assuming company name is in the fourth column
             companyFilter.innerHTML = '<option value="">All</option>'; // Reset options
             companies.forEach(company => {
                 companyFilter.innerHTML += `<option value="${company}">${company}</option>`;
@@ -88,8 +146,8 @@
 
             const filteredRows = allRows.filter((row, index) => {
                 if (index === 0) return true; // Always include header
-                const matchesDifficulty = difficultyFilter ? row[0] === difficultyFilter : true; // Assuming difficulty is in the first column
-                const matchesCompany = companyFilter ? row[1] === companyFilter : true; // Assuming company is in the second column
+                const matchesDifficulty = difficultyFilter ? row[2] === difficultyFilter : true; // Difficulty is in the third column
+                const matchesCompany = companyFilter ? row[3] === companyFilter : true; // Company is in the fourth column
                 return matchesDifficulty && matchesCompany;
             });
 
@@ -145,13 +203,12 @@
             const csvData = await fetchCSV();
             if (csvData) {
                 createTableFromCSV(csvData);
-            } else {
-                console.error('Failed to load CSV data');
             }
-
-            document.getElementById('difficultyFilter').addEventListener('change', filterTable);
-            document.getElementById('companyFilter').addEventListener('change', filterTable);
         };
+
+        // Event listeners for filters
+        document.getElementById('difficultyFilter').addEventListener('change', filterTable);
+        document.getElementById('companyFilter').addEventListener('change', filterTable);
     </script>
 </body>
 </html>
