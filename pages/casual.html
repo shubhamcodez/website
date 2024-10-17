@@ -35,8 +35,10 @@
         <h2 class="title">Recent Blog Posts</h2>
         <ul id="blog-list" class="list">
             <!-- Automatically rendered blog posts will appear here -->
-            <!-- New blogs will automatically appear here -->
         </ul>
+        <div id="blog-content" class="content mt-4">
+            <!-- The selected blog post content will be displayed here -->
+        </div>
     </section>
 
     <footer class="mt-4">
@@ -54,6 +56,7 @@
 <script>
     const blogsFolder = 'https://shubhamcodez.github.io/website/blogs';
     const blogList = document.getElementById('blog-list');
+    const blogContent = document.getElementById('blog-content');
 
     // Function to automatically render blog posts from the blogs folder
     const fetchBlogs = async () => {
@@ -64,14 +67,14 @@
         const htmlDoc = parser.parseFromString(files, 'text/html');
         const links = Array.from(htmlDoc.querySelectorAll('a'));
 
-        // Filter and sort the blog posts by filename (assuming they start with a serial number)
+        // Filter for blog posts and sort them
         const blogPosts = links
             .filter(link => link.getAttribute('href').endsWith('.html')) // Ensure they are HTML files
             .sort((a, b) => {
                 // Extract the serial number from the filenames
                 const serialA = parseInt(a.getAttribute('href').split('/')[2].split('-')[0]);
                 const serialB = parseInt(b.getAttribute('href').split('/')[2].split('-')[0]);
-                return serialA - serialB; // Sort in ascending order (1 is older)
+                return serialA - serialB; // Sort in ascending order
             });
 
         // Append the sorted blog posts to the list
@@ -79,19 +82,16 @@
             const listItem = document.createElement('li');
             const anchor = document.createElement('a');
             anchor.href = `${blogsFolder}/${link.getAttribute('href')}`;
-            anchor.textContent = link.textContent;
+            anchor.textContent = link.textContent || link.getAttribute('href').split('/').pop();
 
             // Add click event to fetch and display the blog content
             anchor.addEventListener('click', async (e) => {
                 e.preventDefault(); // Prevent the default link behavior
                 const blogResponse = await fetch(anchor.href);
-                const blogContent = await blogResponse.text();
+                const blogHtml = await blogResponse.text();
 
-                // Set the blog content in a new section
-                const blogSection = document.createElement('div');
-                blogSection.className = 'blog-content';
-                blogSection.innerHTML = blogContent;
-                document.body.appendChild(blogSection);
+                // Set the blog content in the blog-content div
+                blogContent.innerHTML = blogHtml; // Use innerHTML to render the HTML content
             });
 
             listItem.appendChild(anchor);
