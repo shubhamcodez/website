@@ -67,7 +67,7 @@
             try {
                 appendDebugInfo('Attempting to fetch CSV...');
                 // Use the relative path based on your GitHub Pages URL
-                const response = await fetch('data/Quant Problem Sheet.csv');
+                const response = await fetch('https://shubhamcodez.github.io/website/data/Quant%20Problem%20Sheet.csv');
                 appendDebugInfo(`Fetch response status: ${response.status}`);
                 const data = await response.text();
                 appendDebugInfo(`CSV data length: ${data.length} characters`);
