@@ -181,3 +181,92 @@ footer {
 .social-link.youtube:hover {
   color: #ff0000; /* YouTube red */
 }
+
+/* Additional styles for blog posts */
+.movie-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  color: gold;
+  margin-right: 5px;
+}
+
+.life-updates p {
+  text-align: justify;
+}
+
+/* Project styles */
+.project {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.project:hover {
+  background-color: rgb(212, 231, 240);
+}
+
+.search-bar, .sort-bar {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.sort-bar {
+  margin-right: 10px;
+}
+
+/* Resume styles */
+#skills, #experience, #projects, #certifications {
+  margin-bottom: 2rem;
+}
+
+#experience h3, #projects h3 {
+  margin-top: 1rem;
+  color: #333;
+}
+
+/* Casual blog styles */
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+} 
