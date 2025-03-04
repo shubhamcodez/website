@@ -1,14 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
 
+// This component is currently not being used for content
+// It's better to remove it from App.js if it's not needed
 function Header() {
-  return (
-    <header className="text-center my-4">
-      <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <h1>Shubham Singh</h1>
-      </Link>
-    </header>
-  );
+  const { darkMode } = useContext(ThemeContext);
+  
+  return null; // Return null instead of empty fragment to avoid rendering anything
 }
 
-export default Header; 
+export default Header;

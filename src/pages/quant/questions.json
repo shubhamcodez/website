@@ -1,0 +1,2582 @@
+[
+  {
+    "problemNumber": "42",
+    "question": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1041",
+    "question": "Robot Bounded In Circle",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "3001",
+    "question": "Minimum Moves to Capture The Queen",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "387",
+    "question": "First Unique Character in a String",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "3168",
+    "question": "Minimum Number of Chairs in a Waiting Room",
+    "difficulty": "Easy",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "166",
+    "question": "Fraction to Recurring Decimal",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "4",
+    "question": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "3167",
+    "question": "Better Compression of String",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "91",
+    "question": "Decode Ways",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1086",
+    "question": "High Five",
+    "difficulty": "Easy",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1010",
+    "question": "Pairs of Songs With Total Durations Divisible by 60",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1823",
+    "question": "Find the Winner of the Circular Game",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "647",
+    "question": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "3",
+    "question": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "49",
+    "question": "Group Anagrams",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "273",
+    "question": "Integer to English Words",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "443",
+    "question": "String Compression",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "564",
+    "question": "Find the Closest Palindrome",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "688",
+    "question": "Knight Probability in Chessboard",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "844",
+    "question": "Backspace String Compare",
+    "difficulty": "Easy",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2087",
+    "question": "Minimum Cost Homecoming of a Robot in a Grid",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "11",
+    "question": "Container With Most Water",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "23",
+    "question": "Merge k Sorted Lists",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "55",
+    "question": "Jump Game",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "122",
+    "question": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "152",
+    "question": "Maximum Product Subarray",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "153",
+    "question": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "198",
+    "question": "House Robber",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "209",
+    "question": "Minimum Size Subarray Sum",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "264",
+    "question": "Ugly Number II",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "780",
+    "question": "Reaching Points",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "706",
+    "question": "Design HashMap",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "862",
+    "question": "Shortest Subarray with Sum at Least K",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "931",
+    "question": "Minimum Falling Path Sum",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1109",
+    "question": "Corporate Flight Bookings",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1116",
+    "question": "Print Zero Even Odd",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2191",
+    "question": "Sort the Jumbled Numbers",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1427",
+    "question": "Perform String Shifts",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1235",
+    "question": "Maximum Profit in Job Scheduling",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1750",
+    "question": "Minimum Length of String After Deleting Similar Ends",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "1771",
+    "question": "Maximize Palindrome Length From Subsequences",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2097",
+    "question": "Valid Arrangement of Pairs",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2154",
+    "question": "Keep Multiplying Found Values by Two",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2266",
+    "question": "Count Number of Texts",
+    "difficulty": "Easy",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2300",
+    "question": "Successful Pairs of Spells and Potions",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2375",
+    "question": "Construct Smallest Number From DI String",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2420",
+    "question": "Find All Good Indices",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2438",
+    "question": "Range Product Queries of Powers",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2446",
+    "question": "Determine if Two Events Have Conflict",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2484",
+    "question": "Count Palindromic Subsequences",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2550",
+    "question": "Count Collisions of Monkeys on a Polygon",
+    "difficulty": "Hard",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "3001",
+    "question": "Minimum Moves to Capture The Queen",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "3168",
+    "question": "Minimum Number of Chairs in a Waiting Room",
+    "difficulty": "Medium",
+    "company": "Goldman Sachs"
+  },
+  {
+    "problemNumber": "2771",
+    "question": "Longest Non-decreasing Subarray From Two Arrays",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "124",
+    "question": "Binary Tree Maximum Path Sum",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "740",
+    "question": "Delete and Earn",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1197",
+    "question": "Minimum Knight Moves",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "974",
+    "question": "Subarray Sums Divisible by K",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2361",
+    "question": "Minimum Costs Using the Train Line",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2918",
+    "question": "Minimum Equal Sum of Two Arrays After Replacing Zeros",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2533",
+    "question": "Number of Good Binary Strings",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "3186",
+    "question": "Maximum Total Damage With Spell Casting",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "460",
+    "question": "LFU Cache",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "718",
+    "question": "Maximum Length of Repeated Subarray",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2702",
+    "question": "Minimum Operations to Make Numbers Non-positive",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1515",
+    "question": "Best Position for a Service Centre",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2661",
+    "question": "First Completely Painted Row or Column",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "647",
+    "question": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "146",
+    "question": "LRU Cache",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "150",
+    "question": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1048",
+    "question": "Longest String Chain",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "121",
+    "question": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "122",
+    "question": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "297",
+    "question": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "239",
+    "question": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "287",
+    "question": "Find the Duplicate Number",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "489",
+    "question": "Robot Room Cleaner",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "37",
+    "question": "Sudoku Solver",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "46",
+    "question": "Permutations",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "51",
+    "question": "N-Queens",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "98",
+    "question": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "295",
+    "question": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "10",
+    "question": "Regular Expression Matching",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "42",
+    "question": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "49",
+    "question": "Group Anagrams",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "123",
+    "question": "Best Time to Buy and Sell Stock III",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "200",
+    "question": "Number of Islands",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "221",
+    "question": "Maximal Square",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "329",
+    "question": "Longest Increasing Path in a Matrix",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "399",
+    "question": "Evaluate Division",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "642",
+    "question": "Design Search Autocomplete System",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "622",
+    "question": "Design Circular Queue",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "994",
+    "question": "Rotting Oranges",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2958",
+    "question": "Length of Longest Subarray With at Most K Frequency",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "4",
+    "question": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "15",
+    "question": "3Sum",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "23",
+    "question": "Merge k Sorted Lists",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "198",
+    "question": "House Robber",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "207",
+    "question": "Course Schedule",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "208",
+    "question": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "279",
+    "question": "Perfect Squares",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "310",
+    "question": "Minimum Height Trees",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "412",
+    "question": "Fizz Buzz",
+    "difficulty": "Easy",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "560",
+    "question": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "631",
+    "question": "Design Excel Sum Formula",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2466",
+    "question": "Count Ways To Build Good Strings",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "11",
+    "question": "Container With Most Water",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "12",
+    "question": "Integer to Roman",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "13",
+    "question": "Roman to Integer",
+    "difficulty": "Easy",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "20",
+    "question": "Valid Parentheses",
+    "difficulty": "Easy",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "31",
+    "question": "Next Permutation",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "34",
+    "question": "Find First and Last Position of Element in Sorted Array",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "39",
+    "question": "Combination Sum",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "47",
+    "question": "Permutations II",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "54",
+    "question": "Spiral Matrix",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "62",
+    "question": "Unique Paths",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "71",
+    "question": "Simplify Path",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "79",
+    "question": "Word Search",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "116",
+    "question": "Populating Next Right Pointers in Each Node",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "117",
+    "question": "Populating Next Right Pointers in Each Node II",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "127",
+    "question": "Word Ladder",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "188",
+    "question": "Best Time to Buy and Sell Stock IV",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "209",
+    "question": "Minimum Size Subarray Sum",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "210",
+    "question": "Course Schedule II",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "218",
+    "question": "The Skyline Problem",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "224",
+    "question": "Basic Calculator",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "269",
+    "question": "Alien Dictionary",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "346",
+    "question": "Moving Average from Data Stream",
+    "difficulty": "Easy",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "380",
+    "question": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "486",
+    "question": "Predict the Winner",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "582",
+    "question": "Kill Process",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "588",
+    "question": "Design In-Memory File System",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "679",
+    "question": "24 Game",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "688",
+    "question": "Knight Probability in Chessboard",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "735",
+    "question": "Asteroid Collision",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "765",
+    "question": "Couples Holding Hands",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "767",
+    "question": "Reorganize String",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "782",
+    "question": "Transform to Chessboard",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "815",
+    "question": "Bus Routes",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "910",
+    "question": "Smallest Range II",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1143",
+    "question": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1203",
+    "question": "Sort Items by Groups Respecting Dependencies",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1268",
+    "question": "Search Suggestions System",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1670",
+    "question": "Design Front Middle Back Queue",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "1884",
+    "question": "Egg Drop With 2 Eggs and N Floors",
+    "difficulty": "Medium",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2050",
+    "question": "Parallel Courses III",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2402",
+    "question": "Meeting Rooms III",
+    "difficulty": "Hard",
+    "company": "Citadel"
+  },
+  {
+    "problemNumber": "2085",
+    "question": "Count Common Words With One Occurrence",
+    "difficulty": "Easy",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "874",
+    "question": "Walking Robot Simulation",
+    "difficulty": "Medium",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "2809",
+    "question": "Minimum Time to Make Array Sum At Most x",
+    "difficulty": "Hard",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "1032",
+    "question": "Stream of Characters",
+    "difficulty": "Hard",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "2235",
+    "question": "Add Two Integers",
+    "difficulty": "Easy",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "14",
+    "question": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "282",
+    "question": "Expression Add Operators",
+    "difficulty": "Hard",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "399",
+    "question": "Evaluate Division",
+    "difficulty": "Medium",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "679",
+    "question": "24 Game",
+    "difficulty": "Hard",
+    "company": "Jane Street"
+  },
+  {
+    "problemNumber": "740",
+    "question": "Delete and Earn",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1665",
+    "question": "Minimum Initial Energy to Finish Tasks",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "677",
+    "question": "Map Sum Pairs",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "741",
+    "question": "Cherry Pickup",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "743",
+    "question": "Network Delay Time",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1177",
+    "question": "Can Make Palindrome from Substring",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1425",
+    "question": "Constrained Subsequence Sum",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1223",
+    "question": "Dice Roll Simulation",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1319",
+    "question": "Number of Operations to Make Network Connected",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1326",
+    "question": "Minimum Number of Taps to Open to Water a Garden",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1338",
+    "question": "Reduce Array Size to The Half",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1370",
+    "question": "Increasing Decreasing String",
+    "difficulty": "Easy",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1649",
+    "question": "Create Sorted Array through Instructions",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1819",
+    "question": "Number of Different Subsequences GCDs",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "38",
+    "question": "Count and Say",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "149",
+    "question": "Max Points on a Line",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "2497",
+    "question": "Maximum Star Sum of a Graph",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "2895",
+    "question": "Minimum Processing Time",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "20",
+    "question": "Valid Parentheses",
+    "difficulty": "Easy",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "199",
+    "question": "Binary Tree Right Side View",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "200",
+    "question": "Number of Islands",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "647",
+    "question": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "733",
+    "question": "Flood Fill",
+    "difficulty": "Easy",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "2204",
+    "question": "Distance to a Cycle in Undirected Graph",
+    "difficulty": "Hard",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1636",
+    "question": "Sort Array by Increasing Frequency",
+    "difficulty": "Medium",
+    "company": "Akuna Capital"
+  },
+  {
+    "problemNumber": "1812",
+    "question": "Determine Color of a Chessboard Square",
+    "difficulty": "Easy",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "121",
+    "question": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "1200",
+    "question": "Minimum Absolute Difference",
+    "difficulty": "Easy",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "1247",
+    "question": "Minimum Swaps to Make Strings Equal",
+    "difficulty": "Medium",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "1418",
+    "question": "Display Table of Food Orders in a Restaurant",
+    "difficulty": "Medium",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "1625",
+    "question": "Lexicographically Smallest String After Applying Operations",
+    "difficulty": "Medium",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "1843",
+    "question": "Suspicious Bank Accounts",
+    "difficulty": "Medium",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "2283",
+    "question": "Check if Number Has Equal Digit Count and Digit Value",
+    "difficulty": "Easy",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "2415",
+    "question": "Reverse Odd Levels of Binary Tree",
+    "difficulty": "Medium",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "2503",
+    "question": "Maximum Number of Points From Grid Queries",
+    "difficulty": "Hard",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "2602",
+    "question": "Minimum Operations to Make All Array Elements Equal",
+    "difficulty": "Medium",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "3216",
+    "question": "Lexicographically Smallest String After a Swap",
+    "difficulty": "Medium",
+    "company": "JP Morgan"
+  },
+  {
+    "problemNumber": "188",
+    "question": "Best Time to Buy and Sell Stock IV",
+    "difficulty": "Hard",
+    "company": "Jump Trading"
+  },
+  {
+    "problemNumber": "202",
+    "question": "Happy Number",
+    "difficulty": "Easy",
+    "company": "Jump Trading"
+  },
+  {
+    "problemNumber": "224",
+    "question": "Basic Calculator",
+    "difficulty": "Hard",
+    "company": "Jump Trading"
+  },
+  {
+    "problemNumber": "300",
+    "question": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "company": "Jump Trading"
+  },
+  {
+    "problemNumber": "572",
+    "question": "Subtree of Another Tree",
+    "difficulty": "Easy",
+    "company": "Jump Trading"
+  },
+  {
+    "problemNumber": "887",
+    "question": "Super Egg Drop",
+    "difficulty": "Hard",
+    "company": "Jump Trading"
+  },
+  {
+    "problemNumber": "1250",
+    "question": "Check If It Is a Good Array",
+    "difficulty": "Medium",
+    "company": "Jump Trading"
+  },
+  {
+    "problemNumber": "1566",
+    "question": "Detect Pattern of Length M Repeated K or More Times",
+    "difficulty": "Easy",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "2246",
+    "question": "Longest Path With Different Adjacent Characters",
+    "difficulty": "Hard",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "1317",
+    "question": "Convert Integer to the Sum of Two No-Zero Integers",
+    "difficulty": "Easy",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "1342",
+    "question": "Number of Steps to Reduce a Number to Zero",
+    "difficulty": "Easy",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "1323",
+    "question": "Maximum 69 Number",
+    "difficulty": "Easy",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "2285",
+    "question": "Maximum Total Importance of Roads",
+    "difficulty": "Medium",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "2508",
+    "question": "Add Edges to Make Degrees of All Nodes Even",
+    "difficulty": "Hard",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "3225",
+    "question": "Maximum Score From Grid Operations",
+    "difficulty": "Hard",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "722",
+    "question": "Remove Comments",
+    "difficulty": "Medium",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "67",
+    "question": "Add Binary",
+    "difficulty": "Easy",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "239",
+    "question": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "410",
+    "question": "Split Array Largest Sum",
+    "difficulty": "Hard",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "464",
+    "question": "Can I Win",
+    "difficulty": "Hard",
+    "company": "Hudson River Trading"
+  },
+  {
+    "problemNumber": "724",
+    "question": "Find Pivot Index",
+    "difficulty": "Easy",
+    "company": "CitiBank"
+  },
+  {
+    "problemNumber": "509",
+    "question": "Fibonacci Number",
+    "difficulty": "Easy",
+    "company": "CitiBank"
+  },
+  {
+    "problemNumber": "547",
+    "question": "Number of Provinces",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "2571",
+    "question": "Minimum Operations to Reduce an Integer to 0",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "528",
+    "question": "Random Pick with Weight",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "289",
+    "question": "Game of Life",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "1048",
+    "question": "Longest String Chain",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "43",
+    "question": "Multiply Strings",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "44",
+    "question": "Wildcard Matching",
+    "difficulty": "Hard",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "342",
+    "question": "Power of Four",
+    "difficulty": "Easy",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "349",
+    "question": "Intersection of Two Arrays",
+    "difficulty": "Easy",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "918",
+    "question": "Maximum Sum Circular Subarray",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "1186",
+    "question": "Maximum Subarray Sum with One Deletion",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "212",
+    "question": "Word Search II",
+    "difficulty": "Hard",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "121",
+    "question": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "706",
+    "question": "Design HashMap",
+    "difficulty": "Easy",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "2050",
+    "question": "Parallel Courses III",
+    "difficulty": "Hard",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "23",
+    "question": "Merge k Sorted Lists",
+    "difficulty": "Hard",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "42",
+    "question": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "56",
+    "question": "Merge Intervals",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "122",
+    "question": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "337",
+    "question": "House Robber III",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "348",
+    "question": "Design Tic-Tac-Toe",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "633",
+    "question": "Sum of Square Numbers",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "489",
+    "question": "Robot Room Cleaner",
+    "difficulty": "Hard",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "1268",
+    "question": "Search Suggestions System",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "1801",
+    "question": "Number of Orders in the Backlog",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "1889",
+    "question": "Minimum Space Wasted From Packaging",
+    "difficulty": "Medium",
+    "company": "Two Sigma"
+  },
+  {
+    "problemNumber": "1294",
+    "question": "Weather Type in Each Country",
+    "difficulty": "Easy",
+    "company": "Point72"
+  },
+  {
+    "problemNumber": "1321",
+    "question": "Restaurant Growth",
+    "difficulty": "Medium",
+    "company": "Point72"
+  },
+  {
+    "problemNumber": "1378",
+    "question": "Replace Employee ID With The Unique Identifier",
+    "difficulty": "Easy",
+    "company": "Point72"
+  },
+  {
+    "problemNumber": "1407",
+    "question": "Top Travellers",
+    "difficulty": "Easy",
+    "company": "Point72"
+  },
+  {
+    "problemNumber": "1440",
+    "question": "Evaluate Boolean Expression",
+    "difficulty": "Medium",
+    "company": "Point72"
+  },
+  {
+    "problemNumber": "17",
+    "question": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "968",
+    "question": "Binary Tree Cameras",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2171",
+    "question": "Removing Minimum Number of Magic Beans",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2430",
+    "question": "Maximum Deletions on a String",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2542",
+    "question": "Maximum Subsequence Score",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2875",
+    "question": "Minimum Size Subarray in Infinite Array",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1122",
+    "question": "Relative Sort Array",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1927",
+    "question": "Sum Game",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "3108",
+    "question": "Minimum Cost Walk in Weighted Graph",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1262",
+    "question": "Greatest Sum Divisible by Three",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1358",
+    "question": "Number of Substrings Containing All Three Characters",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1679",
+    "question": "Max Number of K-Sum Pairs",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2343",
+    "question": "Query Kth Smallest Trimmed Number",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2352",
+    "question": "Equal Row and Column Pairs",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2387",
+    "question": "Median of a Row Wise Sorted Matrix",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2660",
+    "question": "Determine the Winner of a Bowling Game",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2558",
+    "question": "Take Gifts From the Richest Pile",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2644",
+    "question": "Find the Maximum Divisibility Score",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2800",
+    "question": "Shortest String That Contains Three Strings",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2920",
+    "question": "Maximum Points After Collecting Coins From All Nodes",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2984",
+    "question": "Find Peak Calling Hours for Each City",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "3077",
+    "question": "Maximum Strength of K Disjoint Subarrays",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "3082",
+    "question": "Find the Sum of the Power of All Subsequences",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "3085",
+    "question": "Minimum Deletions to Make String K-Special",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "3209",
+    "question": "Number of Subarrays With AND Value of K",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1915",
+    "question": "Number of Wonderful Substrings",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "121",
+    "question": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "239",
+    "question": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "380",
+    "question": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "402",
+    "question": "Remove K Digits",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2742",
+    "question": "Painting the Walls",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2972",
+    "question": "Count the Number of Incremovable Subarrays II",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "4",
+    "question": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "128",
+    "question": "Longest Consecutive Sequence",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "198",
+    "question": "House Robber",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "440",
+    "question": "K-th Smallest in Lexicographical Order",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "871",
+    "question": "Minimum Number of Refueling Stops",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "31",
+    "question": "Next Permutation",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "42",
+    "question": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "45",
+    "question": "Jump Game II",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "48",
+    "question": "Rotate Image",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "54",
+    "question": "Spiral Matrix",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "56",
+    "question": "Merge Intervals",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "75",
+    "question": "Sort Colors",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "84",
+    "question": "Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "85",
+    "question": "Maximal Rectangle",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "122",
+    "question": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "155",
+    "question": "Min Stack",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "169",
+    "question": "Majority Element",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "221",
+    "question": "Maximal Square",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "329",
+    "question": "Longest Increasing Path in a Matrix",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "363",
+    "question": "Max Sum of Rectangle No Larger Than K",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "852",
+    "question": "Peak Index in a Mountain Array",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "863",
+    "question": "All Nodes Distance K in Binary Tree",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "875",
+    "question": "Koko Eating Bananas",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1326",
+    "question": "Minimum Number of Taps to Open to Water a Garden",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1584",
+    "question": "Min Cost to Connect All Points",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1701",
+    "question": "Average Waiting Time",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2719",
+    "question": "Count of Integers",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2673",
+    "question": "Make Costs of Paths Equal in a Binary Tree",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "3016",
+    "question": "Minimum Number of Pushes to Type Word II",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "15",
+    "question": "3Sum",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "18",
+    "question": "4Sum",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "20",
+    "question": "Valid Parentheses",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "22",
+    "question": "Generate Parentheses",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "25",
+    "question": "Reverse Nodes in k-Group",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "39",
+    "question": "Combination Sum",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "41",
+    "question": "First Missing Positive",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "53",
+    "question": "Maximum Subarray",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "62",
+    "question": "Unique Paths",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "72",
+    "question": "Edit Distance",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "97",
+    "question": "Interleaving String",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "98",
+    "question": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "104",
+    "question": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "120",
+    "question": "Triangle",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "146",
+    "question": "LRU Cache",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "152",
+    "question": "Maximum Product Subarray",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "168",
+    "question": "Excel Sheet Column Title",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "174",
+    "question": "Dungeon Game",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "200",
+    "question": "Number of Islands",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "209",
+    "question": "Minimum Size Subarray Sum",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "217",
+    "question": "Contains Duplicate",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "224",
+    "question": "Basic Calculator",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "225",
+    "question": "Implement Stack using Queues",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "227",
+    "question": "Basic Calculator II",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "336",
+    "question": "Palindrome Pairs",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "381",
+    "question": "Insert Delete GetRandom O(1) - Duplicates allowed",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "621",
+    "question": "Task Scheduler",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "632",
+    "question": "Smallest Range Covering Elements from K Lists",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "752",
+    "question": "Open the Lock",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "778",
+    "question": "Swim in Rising Water",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "787",
+    "question": "Cheapest Flights Within K Stops",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "907",
+    "question": "Sum of Subarray Minimums",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "943",
+    "question": "Find the Shortest Superstring",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "994",
+    "question": "Rotting Oranges",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1000",
+    "question": "Minimum Cost to Merge Stones",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1004",
+    "question": "Max Consecutive Ones III",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1046",
+    "question": "Last Stone Weight",
+    "difficulty": "Easy",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1139",
+    "question": "Largest 1-Bordered Square",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1235",
+    "question": "Maximum Profit in Job Scheduling",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1283",
+    "question": "Find the Smallest Divisor Given a Threshold",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1383",
+    "question": "Maximum Performance of a Team",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1423",
+    "question": "Maximum Points You Can Obtain from Cards",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1569",
+    "question": "Number of Ways to Reorder Array to Get Same BST",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1642",
+    "question": "Furthest Building You Can Reach",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1884",
+    "question": "Egg Drop With 2 Eggs and N Floors",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2551",
+    "question": "Put Marbles in Bags",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2617",
+    "question": "Minimum Number of Visited Cells in a Grid",
+    "difficulty": "Hard",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "2680",
+    "question": "Maximum OR",
+    "difficulty": "Medium",
+    "company": "DE Shaw"
+  },
+  {
+    "problemNumber": "1217",
+    "question": "Minimum Cost to Move Chips to The Same Position",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "1626",
+    "question": "Best Team With No Conflicts",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "1964",
+    "question": "Find the Longest Valid Obstacle Course at Each Position",
+    "difficulty": "Hard",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "2152",
+    "question": "Minimum Number of Lines to Cover Points",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "2395",
+    "question": "Find Subarrays With Equal Sum",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "2432",
+    "question": "The Employee That Worked on the Longest Task",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "2433",
+    "question": "Find The Original Array of Prefix Xor",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "121",
+    "question": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "1",
+    "question": "Two Sum",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "56",
+    "question": "Merge Intervals",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "3",
+    "question": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "20",
+    "question": "Valid Parentheses",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "5",
+    "question": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "41",
+    "question": "First Missing Positive",
+    "difficulty": "Hard",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "53",
+    "question": "Maximum Subarray",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "55",
+    "question": "Jump Game",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "146",
+    "question": "LRU Cache",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "390",
+    "question": "Elimination Game",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "871",
+    "question": "Minimum Number of Refueling Stops",
+    "difficulty": "Hard",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "2444",
+    "question": "Count Subarrays With Fixed Bounds",
+    "difficulty": "Hard",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "7",
+    "question": "Reverse Integer",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "17",
+    "question": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "31",
+    "question": "Next Permutation",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "61",
+    "question": "Rotate List",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "69",
+    "question": "Sqrt(x)",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "75",
+    "question": "Sort Colors",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "91",
+    "question": "Decode Ways",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "122",
+    "question": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "134",
+    "question": "Gas Station",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "138",
+    "question": "Copy List with Random Pointer",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "142",
+    "question": "Linked List Cycle II",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "151",
+    "question": "Reverse Words in a String",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "198",
+    "question": "House Robber",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "206",
+    "question": "Reverse Linked List",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "236",
+    "question": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "344",
+    "question": "Reverse String",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "387",
+    "question": "First Unique Character in a String",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "560",
+    "question": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "572",
+    "question": "Subtree of Another Tree",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "696",
+    "question": "Count Binary Substrings",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "780",
+    "question": "Reaching Points",
+    "difficulty": "Hard",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "796",
+    "question": "Rotate String",
+    "difficulty": "Easy",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "1254",
+    "question": "Number of Closed Islands",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "2289",
+    "question": "Steps to Make Array Non-decreasing",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "2719",
+    "question": "Count of Integers",
+    "difficulty": "Medium",
+    "company": "Morgan Stanley"
+  },
+  {
+    "problemNumber": "20",
+    "question": "Valid Parentheses",
+    "difficulty": "Easy",
+    "company": "Millenium"
+  },
+  {
+    "problemNumber": "50",
+    "question": "\"Pow(x",
+    "difficulty": "n)\"",
+    "company": "Medium"
+  },
+  {
+    "problemNumber": "991",
+    "question": "Broken Calculator",
+    "difficulty": "Medium",
+    "company": "Millenium"
+  },
+  {
+    "problemNumber": "1010",
+    "question": "Pairs of Songs With Total Durations Divisible by 60",
+    "difficulty": "Medium",
+    "company": "Millenium"
+  },
+  {
+    "problemNumber": "1283",
+    "question": "Find the Smallest Divisor Given a Threshold",
+    "difficulty": "Medium",
+    "company": "Millenium"
+  },
+  {
+    "problemNumber": "2035",
+    "question": "Partition Array Into Two Arrays to Minimize Sum Difference",
+    "difficulty": "Hard",
+    "company": "Millenium"
+  },
+  {
+    "problemNumber": "2164",
+    "question": "Sort Even and Odd Indices Independently",
+    "difficulty": "Medium",
+    "company": "Millenium"
+  },
+  {
+    "problemNumber": "2833",
+    "question": "Furthest Point From Origin",
+    "difficulty": "Easy",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "2961",
+    "question": "Double Modular Exponentiation",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "3080",
+    "question": "Mark Elements on Array by Performing Queries",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "3070",
+    "question": "Count Submatrices with Top-Left Element and Sum Less Than k",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "1",
+    "question": "Two Sum",
+    "difficulty": "Easy",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "2127",
+    "question": "Maximum Employees to Be Invited to a Meeting",
+    "difficulty": "Hard",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "15",
+    "question": "3Sum",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "46",
+    "question": "Permutations",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "205",
+    "question": "Isomorphic Strings",
+    "difficulty": "Easy",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "234",
+    "question": "Palindrome Linked List",
+    "difficulty": "Easy",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "871",
+    "question": "Minimum Number of Refueling Stops",
+    "difficulty": "Hard",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "53",
+    "question": "Maximum Subarray",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "88",
+    "question": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "121",
+    "question": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "373",
+    "question": "Find K Pairs with Smallest Sums",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "386",
+    "question": "Lexicographical Numbers",
+    "difficulty": "Medium",
+    "company": "Barclays"
+  },
+  {
+    "problemNumber": "1426",
+    "question": "Counting Elements",
+    "difficulty": "Easy",
+    "company": "DRW"
+  },
+  {
+    "problemNumber": "2098",
+    "question": "Subsequence of Size K With the Largest Even Sum",
+    "difficulty": "Medium",
+    "company": "DRW"
+  },
+  {
+    "problemNumber": "121",
+    "question": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "company": "DRW"
+  },
+  {
+    "problemNumber": "316",
+    "question": "Remove Duplicate Letters",
+    "difficulty": "Medium",
+    "company": "DRW"
+  },
+  {
+    "problemNumber": "1466",
+    "question": "Reorder Routes to Make All Paths Lead to the City Zero",
+    "difficulty": "Medium",
+    "company": "DRW"
+  },
+  {
+    "problemNumber": "1615",
+    "question": "Maximal Network Rank",
+    "difficulty": "Medium",
+    "company": "DRW"
+  },
+  {
+    "problemNumber": "2477",
+    "question": "Minimum Fuel Cost to Report to the Capital",
+    "difficulty": "Medium",
+    "company": "DRW"
+  }
+]

@@ -66,22 +66,76 @@
 body {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
-  margin: 20px 20px;
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
+  min-height: 100vh;
 }
 
-header{
-  margin: 20px 0;
+/* App wrapper - full viewport width */
+.app-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive container with max-width and padding */
+.responsive-container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content area that grows to fill available space */
+.content-area {
+  flex: 1;
+  padding: 20px 0;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0;
 }
 
 footer {
   text-align: center;
-  margin: 20px 0;
+  padding: 20px 0;
+  width: 100%;
 }
 
 nav {
-  text-align: right;
+  width: 100%;
+}
+
+/* Navbar styling */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 10px 0;
+  position: relative;
   margin-bottom: 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  z-index: 2;
 }
 
 nav a {
@@ -259,14 +313,1094 @@ footer {
   background-color: #f9f9f9;
 }
 
-/* Responsive styles */
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .responsive-container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .responsive-container {
+    max-width: 960px;
+  }
+}
+
 @media (max-width: 768px) {
-  .container {
+  .responsive-container {
+    max-width: 720px;
     padding: 0 15px;
   }
   
-  .img {
-    max-width: 100%;
-    height: auto;
+  .navbar .container {
+    padding: 10px;
   }
-} 
+  
+  .navbar-brand {
+    margin-bottom: 0;
+  }
+  
+  /* Ensure the mobile menu is properly positioned */
+  .mobile-nav {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-container {
+    max-width: 540px;
+    padding: 0 10px;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+}
+
+/* Blab styles */
+.blab-container {
+  display: flex;
+  min-height: 80vh;
+  margin-top: 20px;
+}
+
+.blab-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+}
+
+.blab-sidebar h2 {
+  margin-bottom: 20px;
+  color: #7e57c2;
+}
+
+.blab-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blab-sidebar li {
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blab-sidebar li:hover {
+  background-color: rgba(126, 87, 194, 0.1);
+  color: #7e57c2;
+}
+
+.blab-sidebar li.active {
+  background-color: rgba(126, 87, 194, 0.1);
+  color: #7e57c2;
+  font-weight: bold;
+}
+
+.blab-main {
+  flex: 1;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.blab-compose {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.blab-compose textarea {
+  width: 100%;
+  min-height: 100px;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.blab-compose textarea:focus {
+  outline: none;
+}
+
+.blab-compose-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blab-compose-footer button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blab-compose-footer button:disabled {
+  background-color: #8ed0f9;
+  cursor: not-allowed;
+}
+
+.char-count-warning {
+  color: #ff8800;
+}
+
+.blab-post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.blab-post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.blab-timestamp {
+  color: #657786;
+  font-size: 14px;
+}
+
+.blab-post-content {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.blab-post-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.blab-post-actions button {
+  background: none;
+  border: none;
+  color: #657786;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.blab-post-actions button:hover {
+  color: #1da1f2;
+}
+
+/* Movie card styles */
+.movie-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.movie-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Bookmark card styles */
+.bookmark-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.bookmark-card h3 {
+  margin-top: 0;
+}
+
+.bookmark-card a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.bookmark-card a:hover {
+  text-decoration: underline;
+}
+
+/* Custom styles for the logo and navigation */
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+.logo-image {
+  filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+.nav-link {
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark-mode .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .container {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #90caf9;
+}
+
+.dark-mode a:hover {
+  color: #bbdefb;
+}
+
+.dark-mode .navbar {
+  background-color: #1e1e1e !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .footer-dark {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.dark-mode .social-link {
+  color: #e0e0e0;
+}
+
+.dark-mode .project {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+}
+
+.dark-mode .project:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .blab-sidebar {
+  background-color: #2d2d2d;
+  border-right: 1px solid #444;
+}
+
+.dark-mode .blab-sidebar li:hover {
+  background-color: rgba(126, 87, 194, 0.2);
+  color: #b39ddb;
+}
+
+.dark-mode .blab-sidebar li.active {
+  background-color: #7e57c2;
+  color: #ffffff;
+}
+
+.dark-mode .blab-post, .dark-mode .movie-card, .dark-mode .bookmark-card {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+}
+
+.dark-mode .blab-compose textarea {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+.dark-mode .blab-compose-footer button {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  color: #6c757d;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode-toggle:hover {
+  color: #3b82f6;
+  transform: scale(1.1);
+}
+
+.dark-mode .dark-mode-toggle {
+  color: #f8f9fa;
+}
+
+.dark-mode .dark-mode-toggle:hover {
+  color: #90caf9;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: inherit;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  opacity: 0;
+}
+
+.mobile-nav.show {
+  max-height: 300px;
+  padding: 10px;
+  opacity: 1;
+}
+
+.mobile-nav .navbar-nav {
+  flex-direction: column;
+  width: 100%;
+}
+
+.mobile-nav .nav-item {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.mobile-nav .nav-link {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark-mode .mobile-nav .nav-link {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mobile-nav .nav-item:last-child .nav-link {
+  border-bottom: none;
+}
+
+/* Footer styles */
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  color: #333;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode .social-link {
+  color: #e0e0e0;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+}
+
+.social-link.github:hover {
+  color: #333;
+}
+
+.social-link.kaggle:hover {
+  color: #20beff;
+}
+
+.social-link.youtube:hover {
+  color: #ff0000;
+}
+
+.dark-mode .social-link.github:hover {
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 15px 0;
+  }
+  
+  .social-links {
+    gap: 15px;
+  }
+  
+  .social-link {
+    font-size: 20px;
+  }
+}
+
+/* Desktop Navigation */
+.desktop-nav {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-nav .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.desktop-nav .nav-item {
+  margin: 0 10px;
+}
+
+.desktop-nav .nav-link {
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+/* Bootstrap-like display utilities */
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+  
+  .d-md-flex {
+    display: flex !important;
+  }
+}
+
+/* Quant Resources Styles */
+.quant-resources {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.quant-resources h2 {
+  margin-bottom: 20px;
+  color: #3b82f6;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.resource-section {
+  margin-bottom: 30px;
+}
+
+.resource-section h3 {
+  margin-bottom: 15px;
+  color: #4b5563;
+  font-size: 1.5rem;
+}
+
+.resource-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resource-section li {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resource-section li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resource-section li strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #1f2937;
+}
+
+.resource-section li p {
+  margin: 5px 0 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.dark-mode .quant-resources h2 {
+  color: #60a5fa;
+  border-bottom-color: #374151;
+}
+
+.dark-mode .resource-section h3 {
+  color: #e5e7eb;
+}
+
+.dark-mode .resource-section li {
+  background-color: #1f2937;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .resource-section li strong {
+  color: #f3f4f6;
+}
+
+.dark-mode .resource-section li p {
+  color: #9ca3af;
+}
+
+/* Quant Pages Styles */
+.quant-resources-page,
+.coding-questions,
+.patterns-page,
+.puzzles-page {
+  max-width: 100%;
+  padding: 20px;
+}
+
+/* Patterns Page */
+.pattern-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pattern-item {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pattern-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pattern-item strong {
+  display: block;
+  margin: 10px 0;
+  color: #1f2937;
+}
+
+.pattern-item p {
+  margin: 5px 0;
+}
+
+/* Puzzles Page */
+.puzzle-item {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.puzzle-item:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.puzzle-item .card-header {
+  background-color: #f3f4f6;
+  padding: 15px;
+}
+
+.puzzle-item .card-header h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.puzzle-item .card-body {
+  padding: 20px;
+}
+
+.solution {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  border-left: 4px solid #3b82f6;
+}
+
+/* Coding Page */
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.seo-paragraph {
+  padding: 15px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table th {
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px;
+}
+
+.table th:hover {
+  background-color: #f3f4f6;
+}
+
+/* Dark Mode Styles */
+.dark-mode .pattern-item,
+.dark-mode .puzzle-item .card-header,
+.dark-mode .solution,
+.dark-mode .seo-paragraph {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.dark-mode .puzzle-item {
+  border-color: #374151;
+}
+
+.dark-mode .solution {
+  border-left-color: #60a5fa;
+}
+
+.dark-mode .table th:hover {
+  background-color: #374151;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filter-container label {
+    margin-top: 10px;
+  }
+  
+  .puzzle-item .card-header h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Navigation Dropdown Styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  text-decoration: none;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+/* Mobile Dropdown Styles */
+.mobile-dropdown {
+  position: relative;
+}
+
+.mobile-dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.mobile-dropdown-menu {
+  display: none;
+  padding-left: 1.5rem;
+}
+
+.mobile-dropdown-menu.show {
+  display: block;
+}
+
+.mobile-dropdown-item {
+  display: block;
+  padding: 0.5rem 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Dark Mode Dropdown Styles */
+.dark-mode .dropdown-menu {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.dark-mode .dropdown-item {
+  color: #e5e7eb;
+}
+
+.dark-mode .dropdown-item:hover, 
+.dark-mode .dropdown-item:focus {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+/* QuantHome Page Styles */
+.quant-home-page .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.quant-home-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.quant-home-page .card-body {
+  padding: 2rem 1.5rem;
+}
+
+.quant-home-page .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.quant-home-page .btn {
+  margin-top: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.quant-home-page .btn:hover {
+  transform: scale(1.05);
+}
+
+.quant-home-page .display-4 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.quant-home-page .lead {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Dark Mode Styles for QuantHome */
+.dark-mode .quant-home-page .card {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.dark-mode .quant-home-page .card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Nav Link Inner Styles */
+.nav-link-inner {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link-inner:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Quant Resources Section in Blabb */
+.quant-resources-section {
+  padding: 20px;
+}
+
+.quant-resources-section h2 {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #7e57c2;
+}
+
+.quant-resources-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.quant-resources-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(126, 87, 194, 0.2);
+  border-color: #7e57c2;
+}
+
+.quant-resources-section .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.quant-resources-section .btn {
+  margin-top: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+  background-color: #7e57c2;
+  border-color: #7e57c2;
+  color: white;
+}
+
+.quant-resources-section .btn:hover {
+  transform: scale(1.05);
+  background-color: #6a4caf;
+  border-color: #6a4caf;
+}
+
+/* Dark Mode Styles for Quant Resources Section */
+.dark-mode .quant-resources-section h2 {
+  color: #b39ddb;
+}
+
+.dark-mode .quant-resources-section .card {
+  background-color: #1f2937;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+.dark-mode .quant-resources-section .card:hover {
+  box-shadow: 0 10px 20px rgba(179, 157, 219, 0.2);
+  border-color: #7e57c2;
+}
+
+/* Add dark mode styles for the coding questions table */
+.coding-container.dark-mode {
+  color: #f0f0f0;
+  background-color: #1a1a1a;
+}
+
+.coding-container.dark-mode h1,
+.coding-container.dark-mode h2,
+.coding-container.dark-mode p,
+.coding-container.dark-mode label {
+  color: #f0f0f0;
+}
+
+.coding-container.dark-mode .table {
+  color: #f0f0f0;
+  background-color: #2a2a2a;
+}
+
+.coding-container.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #333333;
+}
+
+.coding-container.dark-mode .table-striped tbody tr:nth-of-type(even) {
+  background-color: #2a2a2a;
+}
+
+.coding-container.dark-mode .table th {
+  background-color: #444444;
+  color: #ffffff;
+  border-color: #555555;
+}
+
+.coding-container.dark-mode .table td {
+  border-color: #555555;
+}
+
+.coding-container.dark-mode select {
+  background-color: #333333;
+  color: #f0f0f0;
+  border: 1px solid #555555;
+}
+
+.coding-container.dark-mode .back-link a {
+  color: #4da6ff;
+}
+
+.coding-container.dark-mode .back-link a:hover {
+  color: #80c1ff;
+  text-decoration: underline;
+}
+
+/* Additional styles for the coding table */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 15px;
+  font-weight: 600;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.table th:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table td {
+  padding: 12px 15px;
+  vertical-align: middle;
+}
+
+.coding-container.dark-mode .table th:hover {
+  background-color: #555555;
+}
+
+/* Difficulty color indicators */
+.table td:nth-child(3) {
+  font-weight: 600;
+}
+
+.coding-container:not(.dark-mode) .table td:nth-child(3)[data-difficulty="Easy"],
+.table td:nth-child(3):contains("Easy") {
+  color: #4caf50;
+}
+
+.coding-container:not(.dark-mode) .table td:nth-child(3)[data-difficulty="Medium"],
+.table td:nth-child(3):contains("Medium") {
+  color: #ff9800;
+}
+
+.coding-container:not(.dark-mode) .table td:nth-child(3)[data-difficulty="Hard"],
+.table td:nth-child(3):contains("Hard") {
+  color: #f44336;
+}
+
+/* Dark mode difficulty colors - brighter for visibility */
+.coding-container.dark-mode .table td:nth-child(3)[data-difficulty="Easy"],
+.coding-container.dark-mode .table td:nth-child(3):contains("Easy") {
+  color: #7fff7f;
+}
+
+.coding-container.dark-mode .table td:nth-child(3)[data-difficulty="Medium"],
+.coding-container.dark-mode .table td:nth-child(3):contains("Medium") {
+  color: #ffcc80;
+}
+
+.coding-container.dark-mode .table td:nth-child(3)[data-difficulty="Hard"],
+.coding-container.dark-mode .table td:nth-child(3):contains("Hard") {
+  color: #ff8a80;
+}
