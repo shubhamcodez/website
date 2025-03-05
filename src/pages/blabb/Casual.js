@@ -224,25 +224,23 @@ function Casual() {
           >
             <FontAwesomeIcon icon={faFilm} /> Movies
           </li>
-          <li>
-            <Link to="/blabb/books">
-              <FontAwesomeIcon icon={faBook} /> Books
-            </Link>
+          <li
+            className={activeSection === 'books' ? 'active' : ''} 
+            onClick={() => setActiveSection('books')}
+          >
+            <FontAwesomeIcon icon={faBook} /> Books
           </li>
-          <li>
-            <Link to="/quant">
-              <FontAwesomeIcon icon={faChartLine} /> Quant
-            </Link>
+          <li
+            className={activeSection === 'quant' ? 'active' : ''} 
+            onClick={() => setActiveSection('quant')}
+          >
+            <FontAwesomeIcon icon={faChartLine} /> Quant
           </li>
-          <li>
-            <Link to="/quant/coding">
-              <FontAwesomeIcon icon={faCode} /> Coding
-            </Link>
-          </li>
-          <li>
-            <Link to="/quant/puzzles">
-              <FontAwesomeIcon icon={faPuzzlePiece} /> Puzzles
-            </Link>
+          <li 
+            className={activeSection === 'bookmarks' ? 'active' : ''} 
+            onClick={() => setActiveSection('bookmarks')}
+          >
+            <FontAwesomeIcon icon={faBookmark} /> Bookmarks
           </li>
         </ul>
       </aside>
@@ -411,6 +409,184 @@ function Casual() {
                 <p>{bookmark.description}</p>
               </div>
             ))}
+          </div>
+        )}
+
+        {activeSection === 'books' && (
+          <div className="books-container">
+            <h1>Books I'm Reading</h1>
+            
+            <div className="books-section">
+              <h2>Finance & Quantitative Analysis</h2>
+              <div className="book-list">
+                <div className="book-item">
+                  <div className="book-cover">
+                    <a href="https://amzn.to/41HgTFW" target="_blank" rel="noopener noreferrer">
+                      <img 
+                        src={process.env.PUBLIC_URL + '/images/books/Mathematical Finance MJoshi.jpg'} 
+                        alt="The Concepts and Practice of Mathematical Finance" 
+                        onError={(e) => {e.target.onerror = null; e.target.src = process.env.PUBLIC_URL + '/images/book-placeholder.jpg'}}
+                      />
+                    </a>
+                  </div>
+                  <div className="book-details">
+                    <h3>
+                      <a href="https://amzn.to/41HgTFW" target="_blank" rel="noopener noreferrer">
+                        The Concepts and Practice of Mathematical Finance
+                      </a>
+                    </h3>
+                    <p className="book-author">Mark Joshi</p>
+                    <p className="book-description">
+                      A comprehensive introduction to mathematical finance, covering topics such as 
+                      derivatives pricing, stochastic calculus, and numerical methods. This book provides 
+                      both theoretical foundations and practical applications for quantitative finance.
+                    </p>
+                    <span className="book-status">Currently Reading</span>
+                    <p className="book-notes">
+                      <strong>My notes:</strong> An excellent resource for understanding the mathematical 
+                      foundations of modern finance. The chapters on Monte Carlo methods and interest rate 
+                      modeling have been particularly insightful for my research.
+                    </p>
+                    <div className="book-purchase">
+                      <a href="https://amzn.to/41HgTFW" target="_blank" rel="noopener noreferrer" className="purchase-button">
+                        View on Amazon
+                      </a>
+                      <small className="affiliate-disclaimer">Affiliate link</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="book-item">
+                  <div className="book-cover">
+                    <a href="https://amzn.to/4kmSFIf" target="_blank" rel="noopener noreferrer">
+                      <img 
+                        src={process.env.PUBLIC_URL + '/images/books/Quant finance Thomas Mazzoni.jpg'} 
+                        alt="A First Course in Quantitative Finance" 
+                        onError={(e) => {e.target.onerror = null; e.target.src = process.env.PUBLIC_URL + '/images/book-placeholder.jpg'}}
+                      />
+                    </a>
+                  </div>
+                  <div className="book-details">
+                    <h3>
+                      <a href="https://amzn.to/4kmSFIf" target="_blank" rel="noopener noreferrer">
+                        A First Course in Quantitative Finance
+                      </a>
+                    </h3>
+                    <p className="book-author">Thomas Mazzoni</p>
+                    <p className="book-description">
+                      This book provides a clear and accessible introduction to the core concepts of 
+                      quantitative finance, including option pricing, risk management, and portfolio theory. 
+                      It bridges the gap between financial theory and computational implementation.
+                    </p>
+                    <span className="book-status">Currently Reading</span>
+                    <p className="book-notes">
+                      <strong>My notes:</strong> Mazzoni's approach to explaining complex financial models 
+                      is refreshingly clear. I've found the sections on stochastic processes particularly 
+                      helpful for my work on cryptocurrency price prediction.
+                    </p>
+                    <div className="book-purchase">
+                      <a href="https://amzn.to/4kmSFIf" target="_blank" rel="noopener noreferrer" className="purchase-button">
+                        View on Amazon
+                      </a>
+                      <small className="affiliate-disclaimer">Affiliate link</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {activeSection === 'quant' && (
+          <div className="quant-home-page container py-5">
+            <div className="row mb-5">
+              <div className="col-12">
+                <h1 className="display-4 mb-4">Quantitative Finance Resources</h1>
+                <p className="lead">
+                  Welcome to my collection of resources for quantitative finance and trading. 
+                  Here you'll find curated learning materials, coding questions, puzzles, and pattern recognition problems 
+                  commonly encountered in quant interviews and trading roles.
+                </p>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-6 col-lg-3 mb-4">
+                <div className="card h-100">
+                  <div className="card-body text-center">
+                    <FontAwesomeIcon icon={faBook} size="3x" className="mb-3 text-primary" />
+                    <h3 className="card-title">Resources</h3>
+                    <p className="card-text">
+                      Curated books, courses, and interview preparation materials for quantitative finance.
+                    </p>
+                    <Link to="/quant/resources" className="btn btn-primary">
+                      Explore Resources
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-3 mb-4">
+                <div className="card h-100">
+                  <div className="card-body text-center">
+                    <FontAwesomeIcon icon={faCode} size="3x" className="mb-3 text-success" />
+                    <h3 className="card-title">Coding Questions</h3>
+                    <p className="card-text">
+                      Programming challenges and algorithmic problems frequently asked in quant interviews.
+                    </p>
+                    <Link to="/quant/coding" className="btn btn-success">
+                      Practice Coding
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-3 mb-4">
+                <div className="card h-100">
+                  <div className="card-body text-center">
+                    <FontAwesomeIcon icon={faPuzzlePiece} size="3x" className="mb-3 text-warning" />
+                    <h3 className="card-title">Puzzles</h3>
+                    <p className="card-text">
+                      Brain teasers and logic puzzles to sharpen your problem-solving skills.
+                    </p>
+                    <Link to="/quant/puzzles" className="btn btn-warning">
+                      Solve Puzzles
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-3 mb-4">
+                <div className="card h-100">
+                  <div className="card-body text-center">
+                    <FontAwesomeIcon icon={faChartLine} size="3x" className="mb-3 text-info" />
+                    <h3 className="card-title">Patterns</h3>
+                    <p className="card-text">
+                      Pattern recognition problems to test your analytical and mathematical thinking.
+                    </p>
+                    <Link to="/quant/patterns" className="btn btn-info">
+                      Explore Patterns
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row mt-5">
+              <div className="col-12">
+                <div className="p-4 rounded bg-light">
+                  <h3>About Quantitative Finance</h3>
+                  <p>
+                    Quantitative finance applies mathematical models and statistical techniques to financial markets and investment management.
+                    Quants use programming, statistics, and financial theory to develop trading strategies, manage risk, and price complex derivatives.
+                  </p>
+                  <p>
+                    The resources on this site are designed to help aspiring quants prepare for interviews and develop the skills needed for a career in this field.
+                    Whether you're a student, a professional looking to transition into quant finance, or simply curious about the field, I hope you find these materials helpful.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </div>

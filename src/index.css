@@ -6,6 +6,64 @@
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
+/* Typewriter effect styles */
+.typewriter-text {
+  display: inline-block;
+  color: #0077cc;
+  font-weight: bold;
+  background: linear-gradient(45deg, #0077cc, #00cc99);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  margin-left: 2px;
+  opacity: 1;
+  font-weight: bold;
+  animation: blink 0.7s infinite;
+  color: #0077cc;
+}
+
+.typewriter-cursor.hidden {
+  opacity: 0;
+}
+
+.typewriter-cursor.visible {
+  opacity: 1;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.dark-mode .typewriter-text {
+  background: linear-gradient(45deg, #4db8ff, #00ffcc);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark-mode .typewriter-cursor {
+  color: #4db8ff;
+}
+
 /* latin */
 @font-face {
   font-family: 'Lato';
@@ -14,6 +72,7 @@
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -22,6 +81,7 @@
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
   font-family: 'Lato';
@@ -30,6 +90,7 @@
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -38,6 +99,7 @@
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
   font-family: 'Lato';
@@ -2619,6 +2681,16 @@ footer {
   color: #333;
 }
 
+.book-details h3 a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.book-details h3 a:hover {
+  color: #ff9900;
+}
+
 .book-author {
   font-size: 1rem;
   color: #666;
@@ -2633,27 +2705,14 @@ footer {
   color: #444;
 }
 
-.book-progress {
-  margin-bottom: 1.5rem;
-}
-
-.progress-bar {
-  height: 10px;
-  background-color: #eee;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-bottom: 0.5rem;
-}
-
-.progress {
-  height: 100%;
-  background-color: #4caf50;
-  border-radius: 5px;
-}
-
-.progress-text {
+.book-status {
+  display: inline-block;
   font-size: 0.85rem;
-  color: #666;
+  color: #fff;
+  background-color: #4caf50;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .book-notes, .book-review {
@@ -2663,6 +2722,34 @@ footer {
   background-color: #f9f9f9;
   border-radius: 5px;
   border-left: 3px solid #4caf50;
+  margin-bottom: 1.5rem;
+}
+
+.book-purchase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.purchase-button {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.purchase-button:hover {
+  background-color: #ffac33;
+}
+
+.affiliate-disclaimer {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.5rem;
 }
 
 .book-rating {
@@ -2720,6 +2807,14 @@ footer {
   color: #eee;
 }
 
+.dark-mode .book-details h3 a {
+  color: #eee;
+}
+
+.dark-mode .book-details h3 a:hover {
+  color: #ff9900;
+}
+
 .dark-mode .book-author {
   color: #bbb;
 }
@@ -2728,12 +2823,8 @@ footer {
   color: #ccc;
 }
 
-.dark-mode .progress-bar {
-  background-color: #444;
-}
-
-.dark-mode .progress-text {
-  color: #aaa;
+.dark-mode .book-status {
+  background-color: #388e3c;
 }
 
 .dark-mode .book-notes, .dark-mode .book-review {
@@ -2758,4 +2849,148 @@ footer {
   .book-cover img {
     max-height: 100%;
   }
+}
+
+.dark-mode .book-status {
+  background-color: #388e3c;
+}
+
+.dark-mode .book-notes, .dark-mode .book-review {
+  background-color: #333;
+  border-left-color: #4caf50;
+}
+
+.dark-mode .purchase-button {
+  background-color: #ff9900;
+  color: #000;
+}
+
+.dark-mode .purchase-button:hover {
+  background-color: #ffac33;
+}
+
+.dark-mode .affiliate-disclaimer {
+  color: #aaa;
+}
+
+.dark-mode .rating-text {
+  color: #aaa;
+}
+
+/* Contact info styles */
+.contact-info {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(240, 240, 240, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  color: #0077cc;
+  width: 20px;
+  text-align: center;
+}
+
+.contact-item a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #005599;
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+}
+
+.social-link.github:hover {
+  background-color: #24292e;
+  color: white;
+}
+
+.social-link.kaggle:hover {
+  background-color: #20beff;
+  color: white;
+}
+
+.social-link.linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+.social-link.google-scholar:hover {
+  background-color: #4285f4;
+  color: white;
+}
+
+/* Animation for contact icons */
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Dark mode styles for contact info */
+.dark-mode .contact-info {
+  background-color: rgba(50, 50, 50, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .contact-icon {
+  color: #4db8ff;
+}
+
+.dark-mode .contact-item a {
+  color: #4db8ff;
+}
+
+.dark-mode .contact-item a:hover {
+  color: #80ccff;
+}
+
+.dark-mode .social-link {
+  background-color: #333;
+  color: #f0f0f0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
