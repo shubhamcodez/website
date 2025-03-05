@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faFilm, faComment, faBookmark, faChartLine, faBook, faCode, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import { getBlabbsData, updateBlabbsData } from '../../services/dataService';
 
 function Casual() {
   const [activeSection, setActiveSection] = useState('home');
@@ -11,46 +12,75 @@ function Casual() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Mock data for blabs (tweets)
+  // Load blabbs from JSON on component mount
   useEffect(() => {
-    const mockBlabs = [
-      {
-        id: 1,
-        author: "Shubham Singh",
-        content: "Just finished implementing a new trading algorithm using reinforcement learning. The results are promising with a Sharpe ratio of 2.3!",
-        timestamp: "2 hours ago",
-        likes: 15,
-        comments: 3
-      },
-      {
-        id: 2,
-        author: "Shubham Singh",
-        content: "Reading 'The Concepts and Practice of Mathematical Finance' by Mark Joshi. Highly recommend for anyone interested in quant finance.",
-        timestamp: "1 day ago",
-        likes: 24,
-        comments: 5
-      },
-      {
-        id: 3,
-        author: "Shubham Singh",
-        content: "Excited to share that my paper on market impact models has been accepted for publication! #QuantFinance #Research",
-        timestamp: "3 days ago",
-        likes: 42,
-        comments: 7
-      },
-      {
-        id: 4,
-        author: "Shubham Singh",
-        content: "Just watched 'The Big Short' again. Still one of the best finance movies ever made. What's your favorite finance movie?",
-        timestamp: "1 week ago",
-        likes: 31,
-        comments: 12
+    const loadData = async () => {
+      try {
+        setLoading(true);
+        const data = await getBlabbsData();
+        setBlabs(data.blabbs || []);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error loading blabbs data:', error);
+        setError('Failed to load blabbs. Using fallback data.');
+        // Fallback to mock data
+        setBlabs([
+          {
+            id: 1,
+            author: "Shubham Singh",
+            content: "Just finished implementing a new trading algorithm using reinforcement learning. The results are promising with a Sharpe ratio of 2.3!",
+            timestamp: "2 hours ago",
+            likes: 15,
+            comments: 3
+          },
+          {
+            id: 2,
+            author: "Shubham Singh",
+            content: "Reading 'The Concepts and Practice of Mathematical Finance' by Mark Joshi. Highly recommend for anyone interested in quant finance.",
+            timestamp: "1 day ago",
+            likes: 24,
+            comments: 5
+          },
+          {
+            id: 3,
+            author: "Shubham Singh",
+            content: "Excited to share that my paper on market impact models has been accepted for publication! #QuantFinance #Research",
+            timestamp: "3 days ago",
+            likes: 42,
+            comments: 7
+          },
+          {
+            id: 4,
+            author: "Shubham Singh",
+            content: "Just watched 'The Big Short' again. Still one of the best finance movies ever made. What's your favorite finance movie?",
+            timestamp: "1 week ago",
+            likes: 31,
+            comments: 12
+          }
+        ]);
+        setLoading(false);
       }
-    ];
-
-    setBlabs(mockBlabs);
-    setLoading(false);
+    };
+    
+    loadData();
   }, []);
+
+  // Save blabbs to JSON whenever they change
+  useEffect(() => {
+    if (loading || blabs.length === 0) return;
+    
+    const saveData = async () => {
+      try {
+        await updateBlabbsData({
+          blabbs: blabs
+        });
+      } catch (error) {
+        console.error('Error saving blabbs data:', error);
+      }
+    };
+    
+    saveData();
+  }, [blabs, loading]);
 
   // Mock data for movies
   const movies = [
@@ -125,7 +155,7 @@ function Casual() {
     if (newBlab.trim() === '') return;
     
     const newBlabObj = {
-      id: blabs.length + 1,
+      id: blabs.length > 0 ? Math.max(...blabs.map(b => b.id)) + 1 : 1,
       author: "Shubham Singh",
       content: newBlab,
       timestamp: "Just now",
@@ -133,15 +163,45 @@ function Casual() {
       comments: 0
     };
     
-    setBlabs([newBlabObj, ...blabs]);
+    const updatedBlabs = [newBlabObj, ...blabs];
+    setBlabs(updatedBlabs);
+    
+    // Save the new blabb to JSON
+    const saveData = async () => {
+      try {
+        await updateBlabbsData({
+          blabbs: updatedBlabs
+        });
+      } catch (error) {
+        console.error('Error saving new blabb:', error);
+      }
+    };
+    
+    saveData();
+    
     setNewBlab('');
     setCharCount(0);
   };
 
   const handleLike = (id) => {
-    setBlabs(blabs.map(blab => 
+    const updatedBlabs = blabs.map(blab => 
       blab.id === id ? {...blab, likes: blab.likes + 1} : blab
-    ));
+    );
+    
+    setBlabs(updatedBlabs);
+    
+    // Save the updated likes to JSON
+    const saveData = async () => {
+      try {
+        await updateBlabbsData({
+          blabbs: updatedBlabs
+        });
+      } catch (error) {
+        console.error('Error saving blabb like:', error);
+      }
+    };
+    
+    saveData();
   };
 
   if (loading) return <div>Loading...</div>;
@@ -149,35 +209,43 @@ function Casual() {
 
   return (
     <div className="blab-container">
-      <div className="blab-sidebar">
-        <h2>Blab</h2>
+      <aside className="blab-sidebar">
+        <h2>Blabb</h2>
         <ul>
           <li 
-            className={activeSection === 'home' ? 'active' : ''}
+            className={activeSection === 'home' ? 'active' : ''} 
             onClick={() => setActiveSection('home')}
           >
             <FontAwesomeIcon icon={faHome} /> Home
           </li>
           <li 
-            className={activeSection === 'quant-resources' ? 'active' : ''}
-            onClick={() => setActiveSection('quant-resources')}
-          >
-            <FontAwesomeIcon icon={faChartLine} /> Quant Resources
-          </li>
-          <li 
-            className={activeSection === 'movies' ? 'active' : ''}
+            className={activeSection === 'movies' ? 'active' : ''} 
             onClick={() => setActiveSection('movies')}
           >
             <FontAwesomeIcon icon={faFilm} /> Movies
           </li>
-          <li 
-            className={activeSection === 'bookmarks' ? 'active' : ''}
-            onClick={() => setActiveSection('bookmarks')}
-          >
-            <FontAwesomeIcon icon={faBookmark} /> Bookmarks
+          <li>
+            <Link to="/blabb/books">
+              <FontAwesomeIcon icon={faBook} /> Books
+            </Link>
+          </li>
+          <li>
+            <Link to="/quant">
+              <FontAwesomeIcon icon={faChartLine} /> Quant
+            </Link>
+          </li>
+          <li>
+            <Link to="/quant/coding">
+              <FontAwesomeIcon icon={faCode} /> Coding
+            </Link>
+          </li>
+          <li>
+            <Link to="/quant/puzzles">
+              <FontAwesomeIcon icon={faPuzzlePiece} /> Puzzles
+            </Link>
           </li>
         </ul>
-      </div>
+      </aside>
       
       <div className="blab-main">
         {activeSection === 'home' && (

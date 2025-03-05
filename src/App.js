@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Casual from './pages/blabb/Casual';
+import Books from './pages/blabb/Books';
 import { Resources, Coding, Patterns, Puzzles, QuantHome } from './pages/quant';
 import { ThemeProvider } from './context/ThemeContext';
 
@@ -23,6 +24,7 @@ function App() {
               <Route path="/projects" element={<Projects />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/blabb" element={<Casual />} />
+              <Route path="/blabb/books" element={<Books />} />
               
               {/* Quant Routes */}
               <Route path="/quant" element={<QuantHome />} />
