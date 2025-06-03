@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master # or main, depending on your default branch name
+      - master
+      - main
 
 jobs:
   build-and-deploy:
@@ -29,3 +30,4 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to
           folder: build  # The folder the action should deploy
+          token: ${{ secrets.GITHUB_TOKEN }}
