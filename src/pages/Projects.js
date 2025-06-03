@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { getProjectsData, updateProjectsData } from '../services/dataService';
 
 function Projects() {
@@ -20,7 +20,7 @@ function Projects() {
   // Animation state for heart
   const [animatingHeart, setAnimatingHeart] = useState(null);
   
-  const projects = [
+  const projects = useMemo(() => ([
     {
       id: 1,
       title: "Fundamental Factor Model",
@@ -144,7 +144,7 @@ function Projects() {
       date: "2024-08-01",
       performance: 2
     }
-  ];
+  ]), []);
 
   // Load data from JSON on component mount
   useEffect(() => {
