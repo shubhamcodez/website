@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faKaggle, faYoutube } from '@fortawesome/free-brands-svg-icons';
-
 function Resources() {
   return (
     <div className="quant-resources-page">
