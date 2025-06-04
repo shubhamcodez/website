@@ -5,10 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
+// Extract just the path portion of PUBLIC_URL for the router basename
+const publicUrl = process.env.PUBLIC_URL || '/';
+const basename = publicUrl.replace(/^https?:\/\/[^/]+/, '') || '/';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
