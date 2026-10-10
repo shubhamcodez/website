@@ -1,0 +1,431 @@
+Problem Number,Question,Difficulty,Company
+42,Trapping Rain Water,Hard,Goldman Sachs
+1041,Robot Bounded In Circle,Medium,Goldman Sachs
+3001,Minimum Moves to Capture The Queen,Medium,Goldman Sachs
+387,First Unique Character in a String,Medium,Goldman Sachs
+3168,Minimum Number of Chairs in a Waiting Room,Easy,Goldman Sachs
+166,Fraction to Recurring Decimal,Medium,Goldman Sachs
+4,Median of Two Sorted Arrays,Hard,Goldman Sachs
+3167,Better Compression of String,Medium,Goldman Sachs
+91,Decode Ways,Medium,Goldman Sachs
+1086,High Five,Easy,Goldman Sachs
+1010,Pairs of Songs With Total Durations Divisible by 60,Medium,Goldman Sachs
+1823,Find the Winner of the Circular Game,Medium,Goldman Sachs
+647,Palindromic Substrings,Medium,Goldman Sachs
+3,Longest Substring Without Repeating Characters,Medium,Goldman Sachs
+49,Group Anagrams,Medium,Goldman Sachs
+273,Integer to English Words,Hard,Goldman Sachs
+443,String Compression,Medium,Goldman Sachs
+564,Find the Closest Palindrome,Hard,Goldman Sachs
+688,Knight Probability in Chessboard,Medium,Goldman Sachs
+844,Backspace String Compare,Easy,Goldman Sachs
+2087,Minimum Cost Homecoming of a Robot in a Grid,Medium,Goldman Sachs
+11,Container With Most Water,Medium,Goldman Sachs
+23,Merge k Sorted Lists,Hard,Goldman Sachs
+55,Jump Game,Medium,Goldman Sachs
+122,Best Time to Buy and Sell Stock II,Medium,Goldman Sachs
+152,Maximum Product Subarray,Medium,Goldman Sachs
+153,Find Minimum in Rotated Sorted Array,Medium,Goldman Sachs
+198,House Robber,Medium,Goldman Sachs
+209,Minimum Size Subarray Sum,Medium,Goldman Sachs
+264,Ugly Number II,Medium,Goldman Sachs
+780,Reaching Points,Hard,Goldman Sachs
+706,Design HashMap,Hard,Goldman Sachs
+862,Shortest Subarray with Sum at Least K,Hard,Goldman Sachs
+931,Minimum Falling Path Sum,Hard,Goldman Sachs
+1109,Corporate Flight Bookings,Medium,Goldman Sachs
+1116,Print Zero Even Odd,Medium,Goldman Sachs
+2191,Sort the Jumbled Numbers,Medium,Goldman Sachs
+1427,Perform String Shifts,Medium,Goldman Sachs
+1235,Maximum Profit in Job Scheduling,Hard,Goldman Sachs
+1750,Minimum Length of String After Deleting Similar Ends,Hard,Goldman Sachs
+1771,Maximize Palindrome Length From Subsequences,Medium,Goldman Sachs
+2097,Valid Arrangement of Pairs,Hard,Goldman Sachs
+2154,Keep Multiplying Found Values by Two,Hard,Goldman Sachs
+2266,Count Number of Texts,Easy,Goldman Sachs
+2300,Successful Pairs of Spells and Potions,Medium,Goldman Sachs
+2375,Construct Smallest Number From DI String,Medium,Goldman Sachs
+2420,Find All Good Indices,Medium,Goldman Sachs
+2438,Range Product Queries of Powers,Medium,Goldman Sachs
+2446,Determine if Two Events Have Conflict,Medium,Goldman Sachs
+2484,Count Palindromic Subsequences,Hard,Goldman Sachs
+2550,Count Collisions of Monkeys on a Polygon,Hard,Goldman Sachs
+3001,Minimum Moves to Capture The Queen,Medium,Goldman Sachs
+3168,Minimum Number of Chairs in a Waiting Room,Medium,Goldman Sachs
+2771,Longest Non-decreasing Subarray From Two Arrays,Medium,Citadel
+124,Binary Tree Maximum Path Sum,Hard,Citadel
+740,Delete and Earn,Medium,Citadel
+1197,Minimum Knight Moves,Medium,Citadel
+974,Subarray Sums Divisible by K,Medium,Citadel
+2361,Minimum Costs Using the Train Line,Hard,Citadel
+2918,Minimum Equal Sum of Two Arrays After Replacing Zeros,Medium,Citadel
+2533,Number of Good Binary Strings,Medium,Citadel
+3186,Maximum Total Damage With Spell Casting,Medium,Citadel
+460,LFU Cache,Hard,Citadel
+718,Maximum Length of Repeated Subarray,Medium,Citadel
+2702,Minimum Operations to Make Numbers Non-positive,Hard,Citadel
+1515,Best Position for a Service Centre,Hard,Citadel
+2661,First Completely Painted Row or Column,Medium,Citadel
+647,Palindromic Substrings,Medium,Citadel
+146,LRU Cache,Medium,Citadel
+150,Evaluate Reverse Polish Notation,Medium,Citadel
+1048,Longest String Chain,Medium,Citadel
+121,Best Time to Buy and Sell Stock,Easy,Citadel
+122,Best Time to Buy and Sell Stock II,Medium,Citadel
+297,Serialize and Deserialize Binary Tree,Hard,Citadel
+239,Sliding Window Maximum,Hard,Citadel
+287,Find the Duplicate Number,Medium,Citadel
+489,Robot Room Cleaner,Hard,Citadel
+37,Sudoku Solver,Hard,Citadel
+46,Permutations,Medium,Citadel
+51,N-Queens,Hard,Citadel
+98,Validate Binary Search Tree,Medium,Citadel
+295,Find Median from Data Stream,Hard,Citadel
+10,Regular Expression Matching,Hard,Citadel
+42,Trapping Rain Water,Hard,Citadel
+49,Group Anagrams,Medium,Citadel
+123,Best Time to Buy and Sell Stock III,Hard,Citadel
+200,Number of Islands,Medium,Citadel
+221,Maximal Square,Medium,Citadel
+329,Longest Increasing Path in a Matrix,Hard,Citadel
+399,Evaluate Division,Medium,Citadel
+642,Design Search Autocomplete System,Hard,Citadel
+622,Design Circular Queue,Medium,Citadel
+994,Rotting Oranges,Medium,Citadel
+2958,Length of Longest Subarray With at Most K Frequency,Medium,Citadel
+4,Median of Two Sorted Arrays,Hard,Citadel
+15,3Sum,Medium,Citadel
+23,Merge k Sorted Lists,Hard,Citadel
+198,House Robber,Medium,Citadel
+207,Course Schedule,Medium,Citadel
+208,Implement Trie (Prefix Tree),Medium,Citadel
+279,Perfect Squares,Medium,Citadel
+310,Minimum Height Trees,Medium,Citadel
+412,Fizz Buzz,Easy,Citadel
+560,Subarray Sum Equals K,Medium,Citadel
+631,Design Excel Sum Formula,Hard,Citadel
+2466,Count Ways To Build Good Strings,Medium,Citadel
+11,Container With Most Water,Medium,Citadel
+12,Integer to Roman,Medium,Citadel
+13,Roman to Integer,Easy,Citadel
+20,Valid Parentheses,Easy,Citadel
+31,Next Permutation,Medium,Citadel
+34,Find First and Last Position of Element in Sorted Array,Medium,Citadel
+39,Combination Sum,Medium,Citadel
+47,Permutations II,Medium,Citadel
+54,Spiral Matrix,Medium,Citadel
+62,Unique Paths,Medium,Citadel
+71,Simplify Path,Medium,Citadel
+79,Word Search,Medium,Citadel
+116,Populating Next Right Pointers in Each Node,Medium,Citadel
+117,Populating Next Right Pointers in Each Node II,Medium,Citadel
+127,Word Ladder,Hard,Citadel
+188,Best Time to Buy and Sell Stock IV,Hard,Citadel
+209,Minimum Size Subarray Sum,Medium,Citadel
+210,Course Schedule II,Medium,Citadel
+218,The Skyline Problem,Hard,Citadel
+224,Basic Calculator,Hard,Citadel
+269,Alien Dictionary,Hard,Citadel
+346,Moving Average from Data Stream,Easy,Citadel
+380,Insert Delete GetRandom O(1),Medium,Citadel
+486,Predict the Winner,Medium,Citadel
+582,Kill Process,Medium,Citadel
+588,Design In-Memory File System,Hard,Citadel
+679,24 Game,Hard,Citadel
+688,Knight Probability in Chessboard,Medium,Citadel
+735,Asteroid Collision,Medium,Citadel
+765,Couples Holding Hands,Hard,Citadel
+767,Reorganize String,Medium,Citadel
+782,Transform to Chessboard,Hard,Citadel
+815,Bus Routes,Hard,Citadel
+910,Smallest Range II,Medium,Citadel
+1143,Longest Common Subsequence,Medium,Citadel
+1203,Sort Items by Groups Respecting Dependencies,Hard,Citadel
+1268,Search Suggestions System,Medium,Citadel
+1670,Design Front Middle Back Queue,Medium,Citadel
+1884,Egg Drop With 2 Eggs and N Floors,Medium,Citadel
+2050,Parallel Courses III,Hard,Citadel
+2402,Meeting Rooms III,Hard,Citadel
+2085,Count Common Words With One Occurrence,Easy,Jane Street
+874,Walking Robot Simulation,Medium,Jane Street
+2809,Minimum Time to Make Array Sum At Most x,Hard,Jane Street
+1032,Stream of Characters,Hard,Jane Street
+2235,Add Two Integers,Easy,Jane Street
+14,Longest Common Prefix,Easy,Jane Street
+282,Expression Add Operators,Hard,Jane Street
+399,Evaluate Division,Medium,Jane Street
+679,24 Game,Hard,Jane Street
+740,Delete and Earn,Medium,Akuna Capital
+1665,Minimum Initial Energy to Finish Tasks,Hard,Akuna Capital
+677,Map Sum Pairs,Medium,Akuna Capital
+741,Cherry Pickup,Hard,Akuna Capital
+743,Network Delay Time,Medium,Akuna Capital
+1177,Can Make Palindrome from Substring,Medium,Akuna Capital
+1425,Constrained Subsequence Sum,Hard,Akuna Capital
+1223,Dice Roll Simulation,Hard,Akuna Capital
+1319,Number of Operations to Make Network Connected,Medium,Akuna Capital
+1326,Minimum Number of Taps to Open to Water a Garden,Hard,Akuna Capital
+1338,Reduce Array Size to The Half,Medium,Akuna Capital
+1370,Increasing Decreasing String,Easy,Akuna Capital
+1649,Create Sorted Array through Instructions,Hard,Akuna Capital
+1819,Number of Different Subsequences GCDs,Hard,Akuna Capital
+38,Count and Say,Medium,Akuna Capital
+149,Max Points on a Line,Hard,Akuna Capital
+2497,Maximum Star Sum of a Graph,Medium,Akuna Capital
+2895,Minimum Processing Time,Medium,Akuna Capital
+20,Valid Parentheses,Easy,Akuna Capital
+199,Binary Tree Right Side View,Medium,Akuna Capital
+200,Number of Islands,Medium,Akuna Capital
+647,Palindromic Substrings,Medium,Akuna Capital
+733,Flood Fill,Easy,Akuna Capital
+2204,Distance to a Cycle in Undirected Graph,Hard,Akuna Capital
+1636,Sort Array by Increasing Frequency,Medium,Akuna Capital
+1812,Determine Color of a Chessboard Square,Easy,JP Morgan
+121,Best Time to Buy and Sell Stock,Easy,JP Morgan
+1200,Minimum Absolute Difference,Easy,JP Morgan
+1247,Minimum Swaps to Make Strings Equal,Medium,JP Morgan
+1418,Display Table of Food Orders in a Restaurant,Medium,JP Morgan
+1625,Lexicographically Smallest String After Applying Operations,Medium,JP Morgan
+1843,Suspicious Bank Accounts,Medium,JP Morgan
+2283,Check if Number Has Equal Digit Count and Digit Value,Easy,JP Morgan
+2415,Reverse Odd Levels of Binary Tree,Medium,JP Morgan
+2503,Maximum Number of Points From Grid Queries,Hard,JP Morgan
+2602,Minimum Operations to Make All Array Elements Equal,Medium,JP Morgan
+3216,Lexicographically Smallest String After a Swap,Medium,JP Morgan
+188,Best Time to Buy and Sell Stock IV,Hard,Jump Trading
+202,Happy Number,Easy,Jump Trading
+224,Basic Calculator,Hard,Jump Trading
+300,Longest Increasing Subsequence,Medium,Jump Trading
+572,Subtree of Another Tree,Easy,Jump Trading
+887,Super Egg Drop,Hard,Jump Trading
+1250,Check If It Is a Good Array,Medium,Jump Trading
+1566,Detect Pattern of Length M Repeated K or More Times,Easy,Hudson River Trading
+2246,Longest Path With Different Adjacent Characters,Hard,Hudson River Trading
+1317,Convert Integer to the Sum of Two No-Zero Integers,Easy,Hudson River Trading
+1342,Number of Steps to Reduce a Number to Zero,Easy,Hudson River Trading
+1323,Maximum 69 Number,Easy,Hudson River Trading
+2285,Maximum Total Importance of Roads,Medium,Hudson River Trading
+2508,Add Edges to Make Degrees of All Nodes Even,Hard,Hudson River Trading
+3225,Maximum Score From Grid Operations,Hard,Hudson River Trading
+722,Remove Comments,Medium,Hudson River Trading
+67,Add Binary,Easy,Hudson River Trading
+239,Sliding Window Maximum,Hard,Hudson River Trading
+410,Split Array Largest Sum,Hard,Hudson River Trading
+464,Can I Win,Hard,Hudson River Trading
+724,Find Pivot Index,Easy,CitiBank
+509,Fibonacci Number,Easy,CitiBank
+547,Number of Provinces,Medium,Two Sigma
+2571,Minimum Operations to Reduce an Integer to 0,Medium,Two Sigma
+528,Random Pick with Weight,Medium,Two Sigma
+289,Game of Life,Medium,Two Sigma
+1048,Longest String Chain,Medium,Two Sigma
+43,Multiply Strings,Medium,Two Sigma
+44,Wildcard Matching,Hard,Two Sigma
+342,Power of Four,Easy,Two Sigma
+349,Intersection of Two Arrays,Easy,Two Sigma
+918,Maximum Sum Circular Subarray,Medium,Two Sigma
+1186,Maximum Subarray Sum with One Deletion,Medium,Two Sigma
+212,Word Search II,Hard,Two Sigma
+121,Best Time to Buy and Sell Stock,Easy,Two Sigma
+706,Design HashMap,Easy,Two Sigma
+2050,Parallel Courses III,Hard,Two Sigma
+23,Merge k Sorted Lists,Hard,Two Sigma
+42,Trapping Rain Water,Hard,Two Sigma
+56,Merge Intervals,Medium,Two Sigma
+122,Best Time to Buy and Sell Stock II,Medium,Two Sigma
+337,House Robber III,Medium,Two Sigma
+348,Design Tic-Tac-Toe,Medium,Two Sigma
+633,Sum of Square Numbers,Medium,Two Sigma
+489,Robot Room Cleaner,Hard,Two Sigma
+1268,Search Suggestions System,Medium,Two Sigma
+1801,Number of Orders in the Backlog,Medium,Two Sigma
+1889,Minimum Space Wasted From Packaging,Medium,Two Sigma
+1294,Weather Type in Each Country,Easy,Point72
+1321,Restaurant Growth,Medium,Point72
+1378,Replace Employee ID With The Unique Identifier,Easy,Point72
+1407,Top Travellers,Easy,Point72
+1440,Evaluate Boolean Expression,Medium,Point72
+17,Letter Combinations of a Phone Number,Medium,DE Shaw
+968,Binary Tree Cameras,Hard,DE Shaw
+2171,Removing Minimum Number of Magic Beans,Medium,DE Shaw
+2430,Maximum Deletions on a String,Hard,DE Shaw
+2542,Maximum Subsequence Score,Medium,DE Shaw
+2875,Minimum Size Subarray in Infinite Array,Medium,DE Shaw
+1122,Relative Sort Array,Easy,DE Shaw
+1927,Sum Game,Medium,DE Shaw
+3108,Minimum Cost Walk in Weighted Graph,Hard,DE Shaw
+1262,Greatest Sum Divisible by Three,Medium,DE Shaw
+1358,Number of Substrings Containing All Three Characters,Medium,DE Shaw
+1679,Max Number of K-Sum Pairs,Medium,DE Shaw
+2343,Query Kth Smallest Trimmed Number,Medium,DE Shaw
+2352,Equal Row and Column Pairs,Medium,DE Shaw
+2387,Median of a Row Wise Sorted Matrix,Medium,DE Shaw
+2660,Determine the Winner of a Bowling Game,Easy,DE Shaw
+2558,Take Gifts From the Richest Pile,Easy,DE Shaw
+2644,Find the Maximum Divisibility Score,Easy,DE Shaw
+2800,Shortest String That Contains Three Strings,Medium,DE Shaw
+2920,Maximum Points After Collecting Coins From All Nodes,Hard,DE Shaw
+2984,Find Peak Calling Hours for Each City,Medium,DE Shaw
+3077,Maximum Strength of K Disjoint Subarrays,Hard,DE Shaw
+3082,Find the Sum of the Power of All Subsequences,Hard,DE Shaw
+3085,Minimum Deletions to Make String K-Special,Medium,DE Shaw
+3209,Number of Subarrays With AND Value of K,Hard,DE Shaw
+1915,Number of Wonderful Substrings,Medium,DE Shaw
+121,Best Time to Buy and Sell Stock,Easy,DE Shaw
+239,Sliding Window Maximum,Hard,DE Shaw
+380,Insert Delete GetRandom O(1),Medium,DE Shaw
+402,Remove K Digits,Medium,DE Shaw
+2742,Painting the Walls,Hard,DE Shaw
+2972,Count the Number of Incremovable Subarrays II,Hard,DE Shaw
+4,Median of Two Sorted Arrays,Hard,DE Shaw
+128,Longest Consecutive Sequence,Medium,DE Shaw
+198,House Robber,Medium,DE Shaw
+440,K-th Smallest in Lexicographical Order,Hard,DE Shaw
+871,Minimum Number of Refueling Stops,Hard,DE Shaw
+31,Next Permutation,Medium,DE Shaw
+42,Trapping Rain Water,Hard,DE Shaw
+45,Jump Game II,Medium,DE Shaw
+48,Rotate Image,Medium,DE Shaw
+54,Spiral Matrix,Medium,DE Shaw
+56,Merge Intervals,Medium,DE Shaw
+75,Sort Colors,Medium,DE Shaw
+84,Largest Rectangle in Histogram,Hard,DE Shaw
+85,Maximal Rectangle,Hard,DE Shaw
+122,Best Time to Buy and Sell Stock II,Medium,DE Shaw
+155,Min Stack,Medium,DE Shaw
+169,Majority Element,Easy,DE Shaw
+221,Maximal Square,Medium,DE Shaw
+329,Longest Increasing Path in a Matrix,Hard,DE Shaw
+363,Max Sum of Rectangle No Larger Than K,Hard,DE Shaw
+852,Peak Index in a Mountain Array,Medium,DE Shaw
+863,All Nodes Distance K in Binary Tree,Medium,DE Shaw
+875,Koko Eating Bananas,Medium,DE Shaw
+1326,Minimum Number of Taps to Open to Water a Garden,Hard,DE Shaw
+1584,Min Cost to Connect All Points,Medium,DE Shaw
+1701,Average Waiting Time,Medium,DE Shaw
+2719,Count of Integers,Hard,DE Shaw
+2673,Make Costs of Paths Equal in a Binary Tree,Medium,DE Shaw
+3016,Minimum Number of Pushes to Type Word II,Medium,DE Shaw
+15,3Sum,Medium,DE Shaw
+18,4Sum,Medium,DE Shaw
+20,Valid Parentheses,Easy,DE Shaw
+22,Generate Parentheses,Medium,DE Shaw
+25,Reverse Nodes in k-Group,Hard,DE Shaw
+39,Combination Sum,Medium,DE Shaw
+41,First Missing Positive,Hard,DE Shaw
+53,Maximum Subarray,Medium,DE Shaw
+62,Unique Paths,Medium,DE Shaw
+72,Edit Distance,Medium,DE Shaw
+97,Interleaving String,Medium,DE Shaw
+98,Validate Binary Search Tree,Medium,DE Shaw
+104,Maximum Depth of Binary Tree,Easy,DE Shaw
+120,Triangle,Medium,DE Shaw
+146,LRU Cache,Medium,DE Shaw
+152,Maximum Product Subarray,Medium,DE Shaw
+168,Excel Sheet Column Title,Easy,DE Shaw
+174,Dungeon Game,Hard,DE Shaw
+200,Number of Islands,Medium,DE Shaw
+209,Minimum Size Subarray Sum,Medium,DE Shaw
+217,Contains Duplicate,Easy,DE Shaw
+224,Basic Calculator,Hard,DE Shaw
+225,Implement Stack using Queues,Easy,DE Shaw
+227,Basic Calculator II,Medium,DE Shaw
+336,Palindrome Pairs,Hard,DE Shaw
+381,Insert Delete GetRandom O(1) - Duplicates allowed,Hard,DE Shaw
+621,Task Scheduler,Medium,DE Shaw
+632,Smallest Range Covering Elements from K Lists,Hard,DE Shaw
+752,Open the Lock,Medium,DE Shaw
+778,Swim in Rising Water,Hard,DE Shaw
+787,Cheapest Flights Within K Stops,Medium,DE Shaw
+907,Sum of Subarray Minimums,Medium,DE Shaw
+943,Find the Shortest Superstring,Hard,DE Shaw
+994,Rotting Oranges,Medium,DE Shaw
+1000,Minimum Cost to Merge Stones,Hard,DE Shaw
+1004,Max Consecutive Ones III,Medium,DE Shaw
+1046,Last Stone Weight,Easy,DE Shaw
+1139,Largest 1-Bordered Square,Medium,DE Shaw
+1235,Maximum Profit in Job Scheduling,Hard,DE Shaw
+1283,Find the Smallest Divisor Given a Threshold,Medium,DE Shaw
+1383,Maximum Performance of a Team,Hard,DE Shaw
+1423,Maximum Points You Can Obtain from Cards,Medium,DE Shaw
+1569,Number of Ways to Reorder Array to Get Same BST,Hard,DE Shaw
+1642,Furthest Building You Can Reach,Medium,DE Shaw
+1884,Egg Drop With 2 Eggs and N Floors,Medium,DE Shaw
+2551,Put Marbles in Bags,Hard,DE Shaw
+2617,Minimum Number of Visited Cells in a Grid,Hard,DE Shaw
+2680,Maximum OR,Medium,DE Shaw
+1217,Minimum Cost to Move Chips to The Same Position,Easy,Morgan Stanley
+1626,Best Team With No Conflicts,Medium,Morgan Stanley
+1964,Find the Longest Valid Obstacle Course at Each Position,Hard,Morgan Stanley
+2152,Minimum Number of Lines to Cover Points,Medium,Morgan Stanley
+2395,Find Subarrays With Equal Sum,Easy,Morgan Stanley
+2432,The Employee That Worked on the Longest Task,Easy,Morgan Stanley
+2433,Find The Original Array of Prefix Xor,Medium,Morgan Stanley
+121,Best Time to Buy and Sell Stock,Easy,Morgan Stanley
+1,Two Sum,Easy,Morgan Stanley
+56,Merge Intervals,Medium,Morgan Stanley
+3,Longest Substring Without Repeating Characters,Medium,Morgan Stanley
+20,Valid Parentheses,Easy,Morgan Stanley
+5,Longest Palindromic Substring,Medium,Morgan Stanley
+41,First Missing Positive,Hard,Morgan Stanley
+53,Maximum Subarray,Medium,Morgan Stanley
+55,Jump Game,Medium,Morgan Stanley
+146,LRU Cache,Medium,Morgan Stanley
+390,Elimination Game,Medium,Morgan Stanley
+871,Minimum Number of Refueling Stops,Hard,Morgan Stanley
+2444,Count Subarrays With Fixed Bounds,Hard,Morgan Stanley
+7,Reverse Integer,Medium,Morgan Stanley
+17,Letter Combinations of a Phone Number,Medium,Morgan Stanley
+31,Next Permutation,Medium,Morgan Stanley
+61,Rotate List,Medium,Morgan Stanley
+69,Sqrt(x),Easy,Morgan Stanley
+75,Sort Colors,Medium,Morgan Stanley
+91,Decode Ways,Medium,Morgan Stanley
+122,Best Time to Buy and Sell Stock II,Medium,Morgan Stanley
+134,Gas Station,Medium,Morgan Stanley
+138,Copy List with Random Pointer,Medium,Morgan Stanley
+142,Linked List Cycle II,Medium,Morgan Stanley
+151,Reverse Words in a String,Medium,Morgan Stanley
+198,House Robber,Medium,Morgan Stanley
+206,Reverse Linked List,Easy,Morgan Stanley
+236,Lowest Common Ancestor of a Binary Tree,Medium,Morgan Stanley
+344,Reverse String,Easy,Morgan Stanley
+387,First Unique Character in a String,Easy,Morgan Stanley
+560,Subarray Sum Equals K,Medium,Morgan Stanley
+572,Subtree of Another Tree,Easy,Morgan Stanley
+696,Count Binary Substrings,Easy,Morgan Stanley
+780,Reaching Points,Hard,Morgan Stanley
+796,Rotate String,Easy,Morgan Stanley
+1254,Number of Closed Islands,Medium,Morgan Stanley
+2289,Steps to Make Array Non-decreasing,Medium,Morgan Stanley
+2719,Count of Integers,Medium,Morgan Stanley
+20,Valid Parentheses,Easy,Millenium
+50,"Pow(x, n)",Medium,Millenium
+991,Broken Calculator,Medium,Millenium
+1010,Pairs of Songs With Total Durations Divisible by 60,Medium,Millenium
+1283,Find the Smallest Divisor Given a Threshold,Medium,Millenium
+2035,Partition Array Into Two Arrays to Minimize Sum Difference,Hard,Millenium
+2164,Sort Even and Odd Indices Independently,Medium,Millenium
+2833,Furthest Point From Origin,Easy,Barclays
+2961,Double Modular Exponentiation,Medium,Barclays
+3080,Mark Elements on Array by Performing Queries,Medium,Barclays
+3070,Count Submatrices with Top-Left Element and Sum Less Than k,Medium,Barclays
+1,Two Sum,Easy,Barclays
+2127,Maximum Employees to Be Invited to a Meeting,Hard,Barclays
+15,3Sum,Medium,Barclays
+46,Permutations,Medium,Barclays
+205,Isomorphic Strings,Easy,Barclays
+234,Palindrome Linked List,Easy,Barclays
+871,Minimum Number of Refueling Stops,Hard,Barclays
+53,Maximum Subarray,Medium,Barclays
+88,Merge Sorted Array,Easy,Barclays
+121,Best Time to Buy and Sell Stock,Easy,Barclays
+373,Find K Pairs with Smallest Sums,Medium,Barclays
+386,Lexicographical Numbers,Medium,Barclays
+1426,Counting Elements,Easy,DRW
+2098,Subsequence of Size K With the Largest Even Sum,Medium,DRW
+121,Best Time to Buy and Sell Stock,Easy,DRW
+316,Remove Duplicate Letters,Medium,DRW
+1466,Reorder Routes to Make All Paths Lead to the City Zero,Medium,DRW
+1615,Maximal Network Rank,Medium,DRW
+2477,Minimum Fuel Cost to Report to the Capital,Medium,DRW
